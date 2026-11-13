@@ -1,0 +1,93 @@
+{
+   "eslint.enable": true,
+   "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+   ],
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+   },
+   "explorer.confirmDelete": false,
+   "editor.suggestSelection": "first",
+   "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+   },
+   "git.autofetch": true,
+   "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.wordWrap": "on",
+   "editor.wordWrapColumn": 100,
+   "prettier.useTabs": true,
+   "prettier.vueIndentScriptAndStyle": true,
+   "prettier.trailingComma": "all",
+   "prettier.requireConfig": true,
+   "prettier.singleAttributePerLine": true,
+   "prettier.singleQuote": false,
+   "editor.formatOnSave": true,
+   "git.confirmSync": false,
+   "workbench.editor.wrapTabs": true,
+   "explorer.confirmDragAndDrop": false,
+   "security.workspace.trust.untrustedFiles": "open",
+   "editor.formatOnPaste": true,
+   "diffEditor.ignoreTrimWhitespace": false,
+   "workbench.startupEditor": "none",
+   "editor.formatOnType": true,
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+   "editor.cursorSmoothCaretAnimation": "on",
+   "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "editor.tabSize": 4,
+   "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "workbench.editor.enablePreview": false,
+   "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "cfml",
+      "HTML (EEx)",
+      "HTML (Eex)",
+      "plist"
+   ],
+   "chatgpt.composerEnterBehavior": "cmdIfMultiline",
+   "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+   },
+   "gitlens.ai.model": "vscode",
+   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+   "workbench.preferredHighContrastLightColorTheme": "Dark+",
+   "workbench.preferredLightColorTheme": "Dark+",
+   "workbench.iconTheme": "material-icon-theme",
+   "workbench.preferredDarkColorTheme": "Dark+",
+   "workbench.colorTheme": "Dark+",
+   "workbench.preferredHighContrastColorTheme": "Dark 2026",
+   "js/ts.updateImportsOnFileMove.enabled": "always",
+   "editor.formatOnSaveMode": "file"
+}

@@ -1,0 +1,41 @@
+/* Local font faces - optimized with WOFF2 for 73% size reduction */
+@font-face {
+    font-family: 'Alpha';
+    src:
+        url('../fonts/Alpha-Light.woff2') format('woff2'),
+        url('../fonts/Alpha-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alpha';
+    src:
+        url('../fonts/Alpha-Regular.woff2') format('woff2'),
+        url('../fonts/Alpha-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alpha';
+    src:
+        url('../fonts/Alpha-Medium.woff2') format('woff2'),
+        url('../fonts/Alpha-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Outline variant as a separate family */
+@font-face {
+    font-family: 'Alpha Outline';
+    src:
+        url('../fonts/Alpha-Outline.woff2') format('woff2'),
+        url('../fonts/Alpha-Outline.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

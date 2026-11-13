@@ -1,0 +1,23 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
+import useFont from '@/hooks/useFont';
+
+import EventCardSkeleton from '@/components/event-card/EventCardSkeleton';
+import SubTitle from '@/components/SubTitle';
+
+export default function CitiesError() {
+    const t = useTranslations();
+    const { sectionTitleFont } = useFont();
+    return (
+        <>
+            <SubTitle
+                title={t('explore_locations')}
+                className="mb-7"
+                fontClassName={sectionTitleFont.className}
+            />
+            <EventCardSkeleton isLoaded messageError={t('section_load_error')} />
+        </>
+    );
+}

@@ -1,0 +1,16 @@
+import { Separator as SeparatorPrimitive } from '@base-ui/react/separator';
+
+import { cn } from '@/lib/cn';
+
+const Separator = ({ className, ...props }: SeparatorPrimitive.Props) => (
+    <SeparatorPrimitive
+        data-slot="separator"
+        className={cn(
+            'shrink-0 bg-border data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px',
+            className
+        )}
+        {...props}
+    />
+);
+
+export { Separator };

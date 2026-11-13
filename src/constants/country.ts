@@ -1,0 +1,2 @@
+export const DEFAULT_EXCLUDED_COUNTRIES = ['TBA'];
+export const LAS_VEGAS_COUNTRY_ID = 817;

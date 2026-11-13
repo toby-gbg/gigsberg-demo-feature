@@ -1,0 +1,2354 @@
+{
+  "/comedy-tickets": {
+    "en-GB": "/comedy-tickets",
+    "es-ES": "/comedia-entradas"
+  },
+  "/comedy-tickets/comedy": {
+    "en-GB": "/comedy-tickets/comedy",
+    "es-ES": "/comedia"
+  },
+  "/sport-tickets": {
+    "en-GB": "/sport-tickets",
+    "es-ES": "/entradas-deportivas"
+  },
+  "/sport-tickets/football/[[...slug]]": {
+    "en-GB": "/football/[[...slug]]",
+    "es-ES": "/futbol/[[...slug]]"
+  },
+  "/sport-tickets/volleyball/[[...slug]]": {
+    "en-GB": "/volleyball/[[...slug]]",
+    "es-ES": "/voleibol/[[...slug]]"
+  },
+  "/sport-tickets/tennis/[[...slug]]": {
+    "en-GB": "/tennis/[[...slug]]",
+    "es-ES": "/tenis/[[...slug]]"
+  },
+  "/sport-tickets/handball/[[...slug]]": {
+    "en-GB": "/handball/[[...slug]]",
+    "es-ES": "/balonmano/[[...slug]]"
+  },
+  "/sport-tickets/nba/[[...slug]]": {
+    "en-GB": "/nba/[[...slug]]",
+    "es-ES": "/nba/[[...slug]]"
+  },
+  "/sport-tickets/curling/[[...slug]]": {
+    "en-GB": "/curling/[[...slug]]",
+    "es-ES": "/curling/[[...slug]]"
+  },
+  "/sport-tickets/boxing/[[...slug]]": {
+    "en-GB": "/boxing/[[...slug]]",
+    "es-ES": "/boxeo/[[...slug]]"
+  },
+  "/sport-tickets/cricket/[[...slug]]": {
+    "en-GB": "/cricket/[[...slug]]",
+    "es-ES": "/cricket/[[...slug]]"
+  },
+  "/sport-tickets/athletics/[[...slug]]": {
+    "en-GB": "/athletics/[[...slug]]",
+    "es-ES": "/atletismo/[[...slug]]"
+  },
+  "/sport-tickets/golf/[[...slug]]": {
+    "en-GB": "/golf/[[...slug]]",
+    "es-ES": "/golf/[[...slug]]"
+  },
+  "/sport-tickets/horse-racing/[[...slug]]": {
+    "en-GB": "/horse-racing/[[...slug]]",
+    "es-ES": "/carreras-de-caballos/[[...slug]]"
+  },
+  "/sport-tickets/polo/[[...slug]]": {
+    "en-GB": "/polo/[[...slug]]",
+    "es-ES": "/polo/[[...slug]]"
+  },
+  "/sport-tickets/baseball/[[...slug]]": {
+    "en-GB": "/baseball/[[...slug]]",
+    "es-ES": "/beisbol/[[...slug]]"
+  },
+  "/sport-tickets/basketball/[[...slug]]": {
+    "en-GB": "/basketball/[[...slug]]",
+    "es-ES": "/baloncesto/[[...slug]]"
+  },
+  "/sport-tickets/rugby/[[...slug]]": {
+    "en-GB": "/rugby/[[...slug]]",
+    "es-ES": "/rugby/[[...slug]]"
+  },
+  "/sport-tickets/other-sports/[[...slug]]": {
+    "en-GB": "/other-sports/[[...slug]]",
+    "es-ES": "/otros-deportes/[[...slug]]"
+  },
+  "/sport-tickets/esports/[[...slug]]": {
+    "en-GB": "/esports/[[...slug]]",
+    "es-ES": "/esports/[[...slug]]"
+  },
+  "/sport-tickets/softball/[[...slug]]": {
+    "en-GB": "/softball/[[...slug]]",
+    "es-ES": "/softbol/[[...slug]]"
+  },
+  "/sport-tickets/mlb/[[...slug]]": {
+    "en-GB": "/mlb/[[...slug]]",
+    "es-ES": "/mlb/[[...slug]]"
+  },
+  "/sport-tickets/nhl/[[...slug]]": {
+    "en-GB": "/nhl/[[...slug]]",
+    "es-ES": "/nhl/[[...slug]]"
+  },
+  "/sport-tickets/international-football/[[...slug]]": {
+    "en-GB": "/international-football/[[...slug]]",
+    "es-ES": "/futbol-internacional/[[...slug]]"
+  },
+  "/sport-tickets/motorsport/[[...slug]]": {
+    "en-GB": "/motorsport/[[...slug]]",
+    "es-ES": "/deportes-de-motor/[[...slug]]"
+  },
+  "/sport-tickets/american-football/[[...slug]]": {
+    "en-GB": "/american-football/[[...slug]]",
+    "es-ES": "/american-futbol/[[...slug]]"
+  },
+  "/sport-tickets/wrestling/[[...slug]]": {
+    "en-GB": "/wrestling/[[...slug]]",
+    "es-ES": "/lucha-libre/[[...slug]]"
+  },
+  "/sport-tickets/international-basketball/[[...slug]]": {
+    "en-GB": "/international-basketball/[[...slug]]",
+    "es-ES": "/internacional-baloncesto/[[...slug]]"
+  },
+  "/sport-tickets/darts/[[...slug]]": {
+    "en-GB": "/darts/[[...slug]]",
+    "es-ES": "/dardos/[[...slug]]"
+  },
+  "/sport-tickets/ice-hockey/[[...slug]]": {
+    "en-GB": "/ice-hockey/[[...slug]]",
+    "es-ES": "/hockey-sobre-hielo/[[...slug]]"
+  },
+  "/sport-tickets/padel-tennis/[[...slug]]": {
+    "en-GB": "/padel-tennis/[[...slug]]",
+    "es-ES": "/padel-tenis/[[...slug]]"
+  },
+  "/sport-tickets/snowboard/[[...slug]]": {
+    "en-GB": "/snowboard/[[...slug]]",
+    "es-ES": "/snowboard/[[...slug]]"
+  },
+  "/sport-tickets/biathlon/[[...slug]]": {
+    "en-GB": "/biathlon/[[...slug]]",
+    "es-ES": "/biathlon/[[...slug]]"
+  },
+  "/sport-tickets/alpine-skiing/[[...slug]]": {
+    "en-GB": "/alpine-skiing/[[...slug]]",
+    "es-ES": "/alpine-skiing/[[...slug]]"
+  },
+  "/sport-tickets/bobsleigh/[[...slug]]": {
+    "en-GB": "/bobsleigh/[[...slug]]",
+    "es-ES": "/bobsleigh/[[...slug]]"
+  },
+  "/sport-tickets/cross-country-skiing/[[...slug]]": {
+    "en-GB": "/cross-country-skiing/[[...slug]]",
+    "es-ES": "/cross-country-skiing/[[...slug]]"
+  },
+  "/sport-tickets/figure-skating/[[...slug]]": {
+    "en-GB": "/figure-skating/[[...slug]]",
+    "es-ES": "/figure-skating/[[...slug]]"
+  },
+  "/sport-tickets/freestyle-skiing/[[...slug]]": {
+    "en-GB": "/freestyle-skiing/[[...slug]]",
+    "es-ES": "/freestyle-skiing/[[...slug]]"
+  },
+  "/sport-tickets/luge/[[...slug]]": {
+    "en-GB": "/luge/[[...slug]]",
+    "es-ES": "/luge/[[...slug]]"
+  },
+  "/sport-tickets/nordic-combined/[[...slug]]": {
+    "en-GB": "/nordic-combined/[[...slug]]",
+    "es-ES": "/nordic-combined/[[...slug]]"
+  },
+  "/sport-tickets/short-track/[[...slug]]": {
+    "en-GB": "/short-track/[[...slug]]",
+    "es-ES": "/short-track/[[...slug]]"
+  },
+  "/sport-tickets/skeleton/[[...slug]]": {
+    "en-GB": "/skeleton/[[...slug]]",
+    "es-ES": "/skeleton/[[...slug]]"
+  },
+  "/sport-tickets/ski-jumping/[[...slug]]": {
+    "en-GB": "/ski-jumping/[[...slug]]",
+    "es-ES": "/ski-jumping/[[...slug]]"
+  },
+  "/sport-tickets/ski-mountaineering/[[...slug]]": {
+    "en-GB": "/ski-mountaineering/[[...slug]]",
+    "es-ES": "/ski-mountaineering/[[...slug]]"
+  },
+  "/sport-tickets/speed-skating/[[...slug]]": {
+    "en-GB": "/speed-skating/[[...slug]]",
+    "es-ES": "/speed-skating/[[...slug]]"
+  },
+  "/sport-tickets/sport-show/[[...slug]]": {
+    "en-GB": "/sport-show/[[...slug]]",
+    "es-ES": "/sport-show/[[...slug]]"
+  },
+  "/concert-tickets/[[...slug]]": {
+    "en-GB": "/concert-tickets/[[...slug]]",
+    "es-ES": "/concierto-entradas/[[...slug]]"
+  },
+  "/concert-tickets/rock/[...slug]": {
+    "en-GB": "/concert-tickets/rock/[...slug]",
+    "es-ES": "/concierto-entradas/rock/[...slug]"
+  },
+  "/concert-tickets/pop/[[...slug]]": {
+    "en-GB": "/concert-tickets/pop/[[...slug]]",
+    "es-ES": "/concierto-entradas/pop/[[...slug]]"
+  },
+  "/concert-tickets/dance/[[...slug]]": {
+    "en-GB": "/concert-tickets/dance/[[...slug]]",
+    "es-ES": "/concierto-entradas/danza/[[...slug]]"
+  },
+  "/concert-tickets/flamenco/[[...slug]]": {
+    "en-GB": "/concert-tickets/flamenco/[[...slug]]",
+    "es-ES": "/concierto-entradas/flamenco/[[...slug]]"
+  },
+  "/concert-tickets/indie/[[...slug]]": {
+    "en-GB": "/concert-tickets/indie/[[...slug]]",
+    "es-ES": "/concierto-entradas/indie/[[...slug]]"
+  },
+  "/concert-tickets/r-and-b/[[...slug]]": {
+    "en-GB": "/concert-tickets/r-and-b/[[...slug]]",
+    "es-ES": "/concierto-entradas/r-y-b/[[...slug]]"
+  },
+  "/concert-tickets/rap/[...slug]": {
+    "en-GB": "/concert-tickets/rap/[...slug]",
+    "es-ES": "/concierto-entradas/rap/[...slug]"
+  },
+  "/concert-tickets/country-folk/[[...slug]]": {
+    "en-GB": "/concert-tickets/country-folk/[[...slug]]",
+    "es-ES": "/concierto-entradas/country-folk/[[...slug]]"
+  },
+  "/concert-tickets/hard-rock-metal/[[...slug]]": {
+    "en-GB": "/concert-tickets/hard-rock-metal/[[...slug]]",
+    "es-ES": "/concierto-entradas/hard-rock-metal/[[...slug]]"
+  },
+  "/concert-tickets/jazz-blues/[[...slug]]": {
+    "en-GB": "/concert-tickets/jazz-blues/[[...slug]]",
+    "es-ES": "/concierto-entradas/jazz-blues/[[...slug]]"
+  },
+  "/concert-tickets/world-music/[[...slug]]": {
+    "en-GB": "/concert-tickets/world-music/[[...slug]]",
+    "es-ES": "/concierto-entradas/musicas-del-mundo/[[...slug]]"
+  },
+  "/concert-tickets/schlager/[[...slug]]": {
+    "en-GB": "/concert-tickets/schlager/[[...slug]]",
+    "es-ES": "/concierto-entradas/schlager/[[...slug]]"
+  },
+  "/concert-tickets/j-pop/[[...slug]]": {
+    "en-GB": "/concert-tickets/j-pop/[[...slug]]",
+    "es-ES": "/concierto-entradas/j-pop/[[...slug]]"
+  },
+  "/concert-tickets/k-pop/[[...slug]]": {
+    "en-GB": "/concert-tickets/k-pop/[[...slug]]",
+    "es-ES": "/concierto-entradas/k-pop/[[...slug]]"
+  },
+  "/concert-tickets/other-concerts/[[...slug]]": {
+    "en-GB": "/concert-tickets/other-concerts/[[...slug]]",
+    "es-ES": "/concierto-entradas/otros-conciertos/[[...slug]]"
+  },
+  "/concert-tickets/electronic/[[...slug]]": {
+    "en-GB": "/concert-tickets/electronic/[[...slug]]",
+    "es-ES": "/concierto-entradas/electronica/[[...slug]]"
+  },
+  "/concert-tickets/opera/[[...slug]]": {
+    "en-GB": "/concert-tickets/opera/[[...slug]]",
+    "es-ES": "/concierto-entradas/opera/[[...slug]]"
+  },
+  "/concert-tickets/varietes-francaises/[[...slug]]": {
+    "en-GB": "/concert-tickets/varietes-francaises/[[...slug]]",
+    "es-ES": "/concierto-entradas/variedades-francesas/[[...slug]]"
+  },
+  "/concert-tickets/rock-pop/[[...slug]]": {
+    "en-GB": "/concert-tickets/rock-pop/[[...slug]]",
+    "es-ES": "/concierto-entradas/rock-pop/[[...slug]]"
+  },
+  "/concert-tickets/alternative-indie/[[...slug]]": {
+    "en-GB": "/concert-tickets/alternative-indie/[[...slug]]",
+    "es-ES": "/concierto-entradas/alternative-e-indie/[[...slug]]"
+  },
+  "/concert-tickets/rap-hip-hop-reggae/[[...slug]]": {
+    "en-GB": "/concert-tickets/rap-hip-hop-reggae/[[...slug]]",
+    "es-ES": "/concierto-entradas/rap-hip-hop-reggae/[[...slug]]"
+  },
+  "/concert-tickets/rb-urban-soul/[[...slug]]": {
+    "en-GB": "/concert-tickets/rb-urban-soul/[[...slug]]",
+    "es-ES": "/concierto-entradas/rb-y-soul-urbano/[[...slug]]"
+  },
+  "/concert-tickets/clubs-dance/[[...slug]]": {
+    "en-GB": "/concert-tickets/clubs-dance/[[...slug]]",
+    "es-ES": "/concierto-entradas/clubs-danza/[[...slug]]"
+  },
+  "/concert-tickets/c-pop/[[...slug]]": {
+    "en-GB": "/concert-tickets/c-pop/[[...slug]]",
+    "es-ES": "/concierto-entradas/c-pop/[[...slug]]"
+  },
+  "/concert-tickets/classicalmusic/[[...slug]]": {
+    "en-GB": "/concert-tickets/classicalmusic/[[...slug]]",
+    "es-ES": "/concierto-entradas/clasico/[[...slug]]"
+  },
+  "/concert-tickets/latin/[[...slug]]": {
+    "en-GB": "/concert-tickets/latin/[[...slug]]",
+    "es-ES": "/concierto-entradas/latin/[[...slug]]"
+  },
+  "/festival-tickets": {
+    "en-GB": "/festivals",
+    "es-ES": "/festivals"
+  },
+  "/festival-tickets/festivals-in-brazil/[[...slug]]": {
+    "en-GB": "/festivals-in-brazil/[[...slug]]",
+    "es-ES": "/festivales-en-brasil/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-germany/[[...slug]]": {
+    "en-GB": "/festivals-in-germany/[[...slug]]",
+    "es-ES": "/festivales-en-alemania/[[...slug]]"
+  },
+  "/festival-tickets/us-festivals/[[...slug]]": {
+    "en-GB": "/us-festivals/[[...slug]]",
+    "es-ES": "/festivales-en-ee-uu/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-spain/[[...slug]]": {
+    "en-GB": "/festivals-in-spain/[[...slug]]",
+    "es-ES": "/festivales-espana/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-france/[[...slug]]": {
+    "en-GB": "/festivals-in-france/[[...slug]]",
+    "es-ES": "/festivales-en-francia/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-italy/[[...slug]]": {
+    "en-GB": "/festivals-in-italy/[[...slug]]",
+    "es-ES": "/festivales-en-italia/[[...slug]]"
+  },
+  "/festival-tickets/edm-festivals/[[...slug]]": {
+    "en-GB": "/edm-festivals/[[...slug]]",
+    "es-ES": "/edm-festivales/[[...slug]]"
+  },
+  "/festival-tickets/uk-festivals/[[...slug]]": {
+    "en-GB": "/uk-festivals/[[...slug]]",
+    "es-ES": "/festivales-en-reino-unido/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-australia/[[...slug]]": {
+    "en-GB": "/festivals-in-australia/[[...slug]]",
+    "es-ES": "/festivales-australia/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-india/[[...slug]]": {
+    "en-GB": "/festivals-in-india/[[...slug]]",
+    "es-ES": "/festivales-en-india/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-belgium/[[...slug]]": {
+    "en-GB": "/festivals-in-belgium/[[...slug]]",
+    "es-ES": "/festivales-en-belgica/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-netherlands/[[...slug]]": {
+    "en-GB": "/festivals-in-netherlands/[[...slug]]",
+    "es-ES": "/festivales-en-paises-bajos/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-norway/[[...slug]]": {
+    "en-GB": "/festivals-in-norway/[[...slug]]",
+    "es-ES": "/festivales-en-noruega/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-japan/[[...slug]]": {
+    "en-GB": "/festivals-in-japan/[[...slug]]",
+    "es-ES": "/festivales-en-japon/[[...slug]]"
+  },
+  "/festival-tickets/international-festivals/[[...slug]]": {
+    "en-GB": "/international-festivals/[[...slug]]",
+    "es-ES": "/festivales-internacionales/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-denmark/[[...slug]]": {
+    "en-GB": "/festivals-in-denmark/[[...slug]]",
+    "es-ES": "/festivales-en-denmark/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-finland/[[...slug]]": {
+    "en-GB": "/festivals-in-finland/[[...slug]]",
+    "es-ES": "/festivales-en-finland/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-poland/[[...slug]]": {
+    "en-GB": "/festivals-in-poland/[[...slug]]",
+    "es-ES": "/festivales-en-poland/[[...slug]]"
+  },
+  "/festival-tickets/festivals-in-sweden/[[...slug]]": {
+    "en-GB": "/festivals-in-sweden/[[...slug]]",
+    "es-ES": "/festivales-en-sweden/[[...slug]]"
+  },
+  "/theatre-tickets/museums-and-exhibitions/[[...slug]]": {
+    "en-GB": "/museums-and-exhibitions/[[...slug]]",
+    "es-ES": "/museums-and-exhibitions/[[...slug]]"
+  },
+  "/theatre-tickets/west-end/[[...slug]]": {
+    "en-GB": "/west-end/[[...slug]]",
+    "es-ES": "/west-end/[[...slug]]"
+  },
+  "/theatre-tickets/classical/[[...slug]]": {
+    "en-GB": "/classical/[[...slug]]",
+    "es-ES": "/clasica/[[...slug]]"
+  },
+  "/theatre-tickets/festpiele/[[...slug]]": {
+    "en-GB": "/festpiele/[[...slug]]",
+    "es-ES": "/festpiele/[[...slug]]"
+  },
+  "/theatre-tickets/shows/[[...slug]]": {
+    "en-GB": "/shows/[[...slug]]",
+    "es-ES": "/espectaculos/[[...slug]]"
+  },
+  "/theatre-tickets/musicals/[[...slug]]": {
+    "en-GB": "/musicals/[[...slug]]",
+    "es-ES": "/musicales/[[...slug]]"
+  },
+  "/theatre-tickets/las-vegas-shows/[[...slug]]": {
+    "en-GB": "/las-vegas-shows/[[...slug]]",
+    "es-ES": "/las-vegas-espectaculos/[[...slug]]"
+  },
+  "/theatre-tickets/los-angeles-shows/[[...slug]]": {
+    "en-GB": "/los-angeles-shows/[[...slug]]",
+    "es-ES": "/los-angeles-espectaculos/[[...slug]]"
+  },
+  "/theatre-tickets/ballet-dance/[[...slug]]": {
+    "en-GB": "/ballet-dance/[[...slug]]",
+    "es-ES": "/ballet-danza/[[...slug]]"
+  },
+  "/theatre-tickets/flower-shows/[[...slug]]": {
+    "en-GB": "/flower-shows/[[...slug]]",
+    "es-ES": "/flower-espectaculos/[[...slug]]"
+  },
+  "/theatre-tickets/cabaret/[[...slug]]": {
+    "en-GB": "/cabaret/[[...slug]]",
+    "es-ES": "/cabaret/[[...slug]]"
+  },
+  "/theatre-tickets/broadway-shows/[[...slug]]": {
+    "en-GB": "/broadway-shows/[[...slug]]",
+    "es-ES": "/broadway-espectaculos/[[...slug]]"
+  },
+  "/theatre-tickets/flamenco-dancing/[[...slug]]": {
+    "en-GB": "/flamenco-dancing/[[...slug]]",
+    "es-ES": "/flamenco-dancing/[[...slug]]"
+  },
+  "/theatre-tickets/film-premieres/[[...slug]]": {
+    "en-GB": "/film-premieres/[[...slug]]",
+    "es-ES": "/film-premieres/[[...slug]]"
+  },
+  "/theatre-tickets/readings/[[...slug]]": {
+    "en-GB": "/readings/[[...slug]]",
+    "es-ES": "/readings/[[...slug]]"
+  },
+  "/theatre-tickets/museums-exhibitions/[[...slug]]": {
+    "en-GB": "/museums-exhibitions/[[...slug]]",
+    "es-ES": "/museums-exhibitions/[[...slug]]"
+  },
+  "/theatre-tickets/cirque/[[...slug]]": {
+    "en-GB": "/cirque/[[...slug]]",
+    "es-ES": "/circo/[[...slug]]"
+  },
+  "/theatre-tickets/family/[[...slug]]": {
+    "en-GB": "/family/[[...slug]]",
+    "es-ES": "/family/[[...slug]]"
+  },
+  "/theatre-tickets/movie/[[...slug]]": {
+    "en-GB": "/movie/[[...slug]]",
+    "es-ES": "/movie/[[...slug]]"
+  },
+  "/theatre-tickets/malzenski-rajd-dakar/[[...slug]]": {
+    "en-GB": "/malzenski-rajd-dakar/[[...slug]]",
+    "es-ES": "/malzenski-rajd-dakar/[[...slug]]"
+  },
+  "/theatre-tickets/conferences-and-speaking-tours/[[...slug]]": {
+    "en-GB": "/conferences-and-speaking-tours/[[...slug]]",
+    "es-ES": "/conferencias-giras/[[...slug]]"
+  },
+  "/theatre-tickets/exhibitions/[[...slug]]": {
+    "en-GB": "/exhibitions/[[...slug]]",
+    "es-ES": "/exhibitions/[[...slug]]"
+  },
+  "/theatre-tickets/london-theatre/[[...slug]]": {
+    "en-GB": "/london-theatre/[[...slug]]",
+    "es-ES": "/london-theatre/[[...slug]]"
+  },
+  "/sport-tickets/darts/premier-league-darts": {
+    "en-GB": "/sport-tickets/darts/premier-league-darts",
+    "es-ES": "/entradas-deportivas/dardos/liga-premier-liga-dardos"
+  },
+  "/sport-tickets/basketball/euroleague": {
+    "en-GB": "/sport-tickets/basketball/euroleague",
+    "es-ES": "/entradas-deportivas/baloncesto/euroliga"
+  },
+  "/sport-tickets/basketball/basketball-cl": {
+    "en-GB": "/sport-tickets/basketball/basketball-cl",
+    "es-ES": "/entradas-deportivas/baloncesto/baloncesto-cl"
+  },
+  "/sport-tickets/basketball/greek-basketball-league": {
+    "en-GB": "/sport-tickets/basketball/greek-basketball-league",
+    "es-ES": "/entradas-deportivas/baloncesto/griega-baloncesto-liga"
+  },
+  "/sport-tickets/basketball/vtb-united-league": {
+    "en-GB": "/sport-tickets/basketball/vtb-united-league",
+    "es-ES": "/entradas-deportivas/baloncesto/vtb-unida-liga"
+  },
+  "/sport-tickets/handball/hbl-germany": {
+    "en-GB": "/sport-tickets/handball/hbl-germany",
+    "es-ES": "/entradas-deportivas/balonmano/hbl-alemania"
+  },
+  "/sport-tickets/motorsport/monaco-grand-prix": {
+    "en-GB": "/sport-tickets/motorsport/monaco-grand-prix",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/monaco-gran-premio"
+  },
+  "/sport-tickets/football/turkish-super-league": {
+    "en-GB": "/sport-tickets/football/turkish-super-league",
+    "es-ES": "/entradas-deportivas/futbol/turca-super-liga"
+  },
+  "/sport-tickets/football/french-ligue-1": {
+    "en-GB": "/sport-tickets/football/french-ligue-1",
+    "es-ES": "/entradas-deportivas/futbol/ligue-1"
+  },
+  "/sport-tickets/football/dutch-premier-league": {
+    "en-GB": "/sport-tickets/football/dutch-premier-league",
+    "es-ES": "/entradas-deportivas/futbol/holandesa-liga-premier-liga"
+  },
+  "/sport-tickets/american-football/nfl-london-games": {
+    "en-GB": "/sport-tickets/american-football/nfl-london-games",
+    "es-ES": "/entradas-deportivas/american-futbol/nfl-londres-juegos"
+  },
+  "/sport-tickets/basketball/turkish-basketball-league": {
+    "en-GB": "/sport-tickets/basketball/turkish-basketball-league",
+    "es-ES": "/entradas-deportivas/baloncesto/turca-baloncesto-liga"
+  },
+  "/sport-tickets/other-sports/gymnastics-world-cup-2019": {
+    "en-GB": "/sport-tickets/other-sports/gymnastics-world-cup-2019",
+    "es-ES": "/entradas-deportivas/otros-deportes/gimnasia-mundial-copa-2019"
+  },
+  "/sport-tickets/motorsport/the-arenacross-tour": {
+    "en-GB": "/sport-tickets/motorsport/the-arenacross-tour",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/the-arenacross-torneo"
+  },
+  "/sport-tickets/rugby/natwest-six-nations-2019": {
+    "en-GB": "/sport-tickets/rugby/natwest-six-nations-2019",
+    "es-ES": "/entradas-deportivas/rugby/natwest-seis-naciones-2019"
+  },
+  "/sport-tickets/basketball/nba-london": {
+    "en-GB": "/sport-tickets/basketball/nba-london",
+    "es-ES": "/entradas-deportivas/baloncesto/nba-londres-2019"
+  },
+  "/sport-tickets/other-sports/paris-grand-slam-judo": {
+    "en-GB": "/sport-tickets/other-sports/paris-grand-slam-judo",
+    "es-ES": "/entradas-deportivas/otros-deportes/paris-gran-slam-judo"
+  },
+  "/sport-tickets/football/russian-premier-league": {
+    "en-GB": "/sport-tickets/football/russian-premier-league",
+    "es-ES": "/entradas-deportivas/futbol/rusa-liga-premier-liga"
+  },
+  "/sport-tickets/tennis/australian-open": {
+    "en-GB": "/sport-tickets/tennis/australian-open",
+    "es-ES": "/entradas-deportivas/tenis/australia-abierto"
+  },
+  "/sport-tickets/tennis/french-open": {
+    "en-GB": "/sport-tickets/tennis/french-open",
+    "es-ES": "/entradas-deportivas/tenis/francesa-abierto"
+  },
+  "/sport-tickets/tennis/us-open": {
+    "en-GB": "/sport-tickets/tennis/us-open",
+    "es-ES": "/entradas-deportivas/tenis/ee-uu-abierto"
+  },
+  "/sport-tickets/tennis/davis-cup": {
+    "en-GB": "/sport-tickets/tennis/davis-cup",
+    "es-ES": "/entradas-deportivas/tenis/davis-copa"
+  },
+  "/sport-tickets/tennis/fed-cup": {
+    "en-GB": "/sport-tickets/tennis/fed-cup",
+    "es-ES": "/entradas-deportivas/tenis/fed-copa"
+  },
+  "/sport-tickets/tennis/hopman-cup": {
+    "en-GB": "/sport-tickets/tennis/hopman-cup",
+    "es-ES": "/entradas-deportivas/tenis/hopman-copa"
+  },
+  "/sport-tickets/tennis/laver-cup": {
+    "en-GB": "/sport-tickets/tennis/laver-cup",
+    "es-ES": "/entradas-deportivas/tenis/laver-copa"
+  },
+  "/sport-tickets/tennis/atp-world-tour": {
+    "en-GB": "/sport-tickets/tennis/atp-world-tour",
+    "es-ES": "/entradas-deportivas/tenis/atp-mundial-torneo"
+  },
+  "/sport-tickets/football/ukrainian-premier-league": {
+    "en-GB": "/sport-tickets/football/ukrainian-premier-league",
+    "es-ES": "/entradas-deportivas/futbol/ukrainian-liga-premier-liga"
+  },
+  "/sport-tickets/tennis/miami-open": {
+    "en-GB": "/sport-tickets/tennis/miami-open",
+    "es-ES": "/entradas-deportivas/tenis/miami-abierto"
+  },
+  "/sport-tickets/tennis/madrid-open": {
+    "en-GB": "/sport-tickets/tennis/madrid-open",
+    "es-ES": "/entradas-deportivas/tenis/madrid-abierto"
+  },
+  "/sport-tickets/tennis/italian-open": {
+    "en-GB": "/sport-tickets/tennis/italian-open",
+    "es-ES": "/entradas-deportivas/tenis/italiana-abierto"
+  },
+  "/sport-tickets/tennis/canadian-open": {
+    "en-GB": "/sport-tickets/tennis/canadian-open",
+    "es-ES": "/entradas-deportivas/tenis/canadiense-abierto"
+  },
+  "/sport-tickets/football/belgian-first-division-a": {
+    "en-GB": "/sport-tickets/football/belgian-first-division-a",
+    "es-ES": "/entradas-deportivas/futbol/belga-first-division-a"
+  },
+  "/sport-tickets/motorsport/night-of-freestyle-super-heroes-tour": {
+    "en-GB": "/sport-tickets/motorsport/night-of-freestyle-super-heroes-tour",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/noche-of-freestyle-super-heroes-torneo"
+  },
+  "/sport-tickets/motorsport/fim-british-speedway-grand-prix": {
+    "en-GB": "/sport-tickets/motorsport/fim-british-speedway-grand-prix",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/fim-britanica-speedway-gran-premio"
+  },
+  "/sport-tickets/rugby/six-nations": {
+    "en-GB": "/sport-tickets/rugby/six-nations",
+    "es-ES": "/entradas-deportivas/rugby/seis-naciones"
+  },
+  "/sport-tickets/other-sports/world-matchplay-darts": {
+    "en-GB": "/sport-tickets/other-sports/world-matchplay-darts",
+    "es-ES": "/entradas-deportivas/otros-deportes/mundial-matchplay-dardos"
+  },
+  "/sport-tickets/golf/british-open": {
+    "en-GB": "/sport-tickets/golf/british-open",
+    "es-ES": "/entradas-deportivas/golf/britanica-abierto"
+  },
+  "/sport-tickets/football/the-fa-cup": {
+    "en-GB": "/sport-tickets/football/the-fa-cup",
+    "es-ES": "/entradas-deportivas/futbol/fa-cup"
+  },
+  "/sport-tickets/tennis/barcelona-open-banc-sabadell": {
+    "en-GB": "/sport-tickets/tennis/barcelona-open-banc-sabadell",
+    "es-ES": "/entradas-deportivas/tenis/barcelona-abierto-banc-sabadell"
+  },
+  "/sport-tickets/other-sports/world-series-of-darts-2019": {
+    "en-GB": "/sport-tickets/other-sports/world-series-of-darts-2019",
+    "es-ES": "/entradas-deportivas/otros-deportes/mundial-series-of-dardos-2019"
+  },
+  "/sport-tickets/tennis/gerry-weber-open": {
+    "en-GB": "/sport-tickets/tennis/gerry-weber-open",
+    "es-ES": "/entradas-deportivas/tenis/gerry-weber-abierto"
+  },
+  "/sport-tickets/golf/british-masters": {
+    "en-GB": "/sport-tickets/golf/british-masters",
+    "es-ES": "/entradas-deportivas/golf/britanica-masters"
+  },
+  "/sport-tickets/rugby/rugby-world-cup-2019": {
+    "en-GB": "/sport-tickets/rugby/rugby-world-cup-2019",
+    "es-ES": "/entradas-deportivas/rugby/rugby-mundial-copa-2019"
+  },
+  "/sport-tickets/rugby/autumn-internationals": {
+    "en-GB": "/sport-tickets/rugby/autumn-internationals",
+    "es-ES": "/entradas-deportivas/rugby/otono-internationals"
+  },
+  "/sport-tickets/cricket/vitality-bash-league": {
+    "en-GB": "/sport-tickets/cricket/vitality-bash-league",
+    "es-ES": "/entradas-deportivas/cricket/vitality-bash-liga"
+  },
+  "/sport-tickets/football/legends-charity-match": {
+    "en-GB": "/sport-tickets/football/legends-charity-match",
+    "es-ES": "/entradas-deportivas/futbol/leyendas-charity-match"
+  },
+  "/sport-tickets/rugby/heineken-cup": {
+    "en-GB": "/sport-tickets/rugby/heineken-cup",
+    "es-ES": "/entradas-deportivas/rugby/heineken-copa"
+  },
+  "/sport-tickets/cricket/t20-world-cup": {
+    "en-GB": "/sport-tickets/cricket/t20-world-cup",
+    "es-ES": "/entradas-deportivas/cricket/t20-mundial-copa"
+  },
+  "/sport-tickets/tennis/hamburg-open": {
+    "en-GB": "/sport-tickets/tennis/hamburg-open",
+    "es-ES": "/entradas-deportivas/tenis/hamburg-abierto"
+  },
+  "/sport-tickets/tennis/citi-open": {
+    "en-GB": "/sport-tickets/tennis/citi-open",
+    "es-ES": "/entradas-deportivas/tenis/citi-abierto"
+  },
+  "/sport-tickets/golf/scottish-open": {
+    "en-GB": "/sport-tickets/golf/scottish-open",
+    "es-ES": "/entradas-deportivas/golf/scottish-abierto"
+  },
+  "/sport-tickets/tennis/rogers-cup": {
+    "en-GB": "/sport-tickets/tennis/rogers-cup",
+    "es-ES": "/entradas-deportivas/tenis/rogers-copa"
+  },
+  "/sport-tickets/football/europa-league-cup": {
+    "en-GB": "/sport-tickets/football/europa-league-cup",
+    "es-ES": "/entradas-deportivas/futbol/europa-league"
+  },
+  "/sport-tickets/tennis/china-open": {
+    "en-GB": "/sport-tickets/tennis/china-open",
+    "es-ES": "/entradas-deportivas/tenis/china-abierto"
+  },
+  "/sport-tickets/tennis/rakuten-japan-open-tennis-championships": {
+    "en-GB": "/sport-tickets/tennis/rakuten-japan-open-tennis-championships",
+    "es-ES": "/entradas-deportivas/tenis/rakuten-japan-abierto-tennis-championships"
+  },
+  "/sport-tickets/other-sports/world-snooker-championship": {
+    "en-GB": "/sport-tickets/other-sports/world-snooker-championship",
+    "es-ES": "/entradas-deportivas/otros-deportes/mundial-snooker-campeonato"
+  },
+  "/sport-tickets/tennis/erste-bank-open-500": {
+    "en-GB": "/sport-tickets/tennis/erste-bank-open-500",
+    "es-ES": "/entradas-deportivas/tenis/erste-bank-abierto-500"
+  },
+  "/sport-tickets/tennis/next-gen-atp-finals": {
+    "en-GB": "/sport-tickets/tennis/next-gen-atp-finals",
+    "es-ES": "/entradas-deportivas/tenis/next-gen-atp-finales"
+  },
+  "/sport-tickets/golf/bmw-pga-championship": {
+    "en-GB": "/sport-tickets/golf/bmw-pga-championship",
+    "es-ES": "/entradas-deportivas/golf/bmw-pga-campeonato"
+  },
+  "/sport-tickets/golf/pga-championship": {
+    "en-GB": "/sport-tickets/golf/pga-championship",
+    "es-ES": "/entradas-deportivas/golf/pga-campeonato"
+  },
+  "/sport-tickets/other-sports/uk-championship-snooker": {
+    "en-GB": "/sport-tickets/other-sports/uk-championship-snooker",
+    "es-ES": "/entradas-deportivas/otros-deportes/uk-campeonato-snooker"
+  },
+  "/sport-tickets/football/efl-championship": {
+    "en-GB": "/sport-tickets/football/efl-championship",
+    "es-ES": "/entradas-deportivas/futbol/efl-campeonato"
+  },
+  "/sport-tickets/golf/us-open-golf": {
+    "en-GB": "/sport-tickets/golf/us-open-golf",
+    "es-ES": "/entradas-deportivas/golf/ee-uu-abierto-golf"
+  },
+  "/sport-tickets/football/efl-championship-play-offs": {
+    "en-GB": "/sport-tickets/football/efl-championship-play-offs",
+    "es-ES": "/entradas-deportivas/futbol/efl-campeonato-play-offs"
+  },
+  "/sport-tickets/golf/the-players-championship": {
+    "en-GB": "/sport-tickets/golf/the-players-championship",
+    "es-ES": "/entradas-deportivas/golf/the-players-campeonato"
+  },
+  "/sport-tickets/football/emirates-cup": {
+    "en-GB": "/sport-tickets/football/emirates-cup",
+    "es-ES": "/entradas-deportivas/futbol/emirates-copa"
+  },
+  "/sport-tickets/boxing/bare-knuckle-fighting-championship": {
+    "en-GB": "/sport-tickets/boxing/bare-knuckle-fighting-championship",
+    "es-ES": "/entradas-deportivas/boxeo/bare-knuckle-combate-campeonato"
+  },
+  "/sport-tickets/boxing/world-boxing-super-series": {
+    "en-GB": "/sport-tickets/boxing/world-boxing-super-series",
+    "es-ES": "/entradas-deportivas/boxeo/mundial-boxeo-super-series"
+  },
+  "/sport-tickets/motorsport/nitro-circus-live": {
+    "en-GB": "/sport-tickets/motorsport/nitro-circus-live",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/nitro-circo-live"
+  },
+  "/sport-tickets/motorsport/australian-supercross-championships-series": {
+    "en-GB": "/sport-tickets/motorsport/australian-supercross-championships-series",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/australia-supercross-championships-series"
+  },
+  "/sport-tickets/rugby/bledisloe-cup": {
+    "en-GB": "/sport-tickets/rugby/bledisloe-cup",
+    "es-ES": "/entradas-deportivas/rugby/bledisloe-copa"
+  },
+  "/sport-tickets/rugby/national-rugby-league-premiership": {
+    "en-GB": "/sport-tickets/rugby/national-rugby-league-premiership",
+    "es-ES": "/entradas-deportivas/rugby/national-rugby-liga-premiership"
+  },
+  "/sport-tickets/athletics/diamond-league": {
+    "en-GB": "/sport-tickets/athletics/diamond-league",
+    "es-ES": "/entradas-deportivas/atletismo/diamante-liga"
+  },
+  "/sport-tickets/motorsport/x-trial-australian-championship": {
+    "en-GB": "/sport-tickets/motorsport/x-trial-australian-championship",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/x-trial-australia-campeonato"
+  },
+  "/sport-tickets/baseball/mlb-london-series": {
+    "en-GB": "/sport-tickets/baseball/mlb-london-series",
+    "es-ES": "/entradas-deportivas/beisbol/mlb-londres-series"
+  },
+  "/sport-tickets/international-basketball/fiba-basketball-world-cup-2019": {
+    "en-GB": "/sport-tickets/international-basketball/fiba-basketball-world-cup-2019",
+    "es-ES": "/entradas-deportivas/internacional-baloncesto/fiba-baloncesto-mundial-copa-2019"
+  },
+  "/sport-tickets/motorsport/nitro-world-games": {
+    "en-GB": "/sport-tickets/motorsport/nitro-world-games",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/nitro-mundial-juegos"
+  },
+  "/sport-tickets/football/joan-gamper-cup": {
+    "en-GB": "/sport-tickets/football/joan-gamper-cup",
+    "es-ES": "/entradas-deportivas/futbol/joan-gamper-copa"
+  },
+  "/sport-tickets/other-sports/bmw-ibu-world-cup-biathlontour": {
+    "en-GB": "/sport-tickets/other-sports/bmw-ibu-world-cup-biathlontour",
+    "es-ES": "/entradas-deportivas/otros-deportes/bmw-ibu-mundial-copa-biathlontour"
+  },
+  "/sport-tickets/other-sports/fis-ski-jumping-world-cup": {
+    "en-GB": "/sport-tickets/other-sports/fis-ski-jumping-world-cup",
+    "es-ES": "/entradas-deportivas/otros-deportes/fis-ski-jumping-mundial-copa"
+  },
+  "/sport-tickets/esports/fifa-eworld-cup-2019": {
+    "en-GB": "/sport-tickets/esports/fifa-eworld-cup-2019",
+    "es-ES": "/entradas-deportivas/esports/fifa-eworld-copa-2019"
+  },
+  "/sport-tickets/darts/william-hill-world-darts-championship": {
+    "en-GB": "/sport-tickets/darts/william-hill-world-darts-championship",
+    "es-ES": "/entradas-deportivas/dardos/william-hill-mundial-dardos-campeonato"
+  },
+  "/sport-tickets/boxing/unified-lightweight-championship-of-the-world": {
+    "en-GB": "/sport-tickets/boxing/unified-lightweight-championship-of-the-world",
+    "es-ES": "/entradas-deportivas/boxeo/unified-lightweight-campeonato-of-the-mundial"
+  },
+  "/sport-tickets/handball/golden-league-2020": {
+    "en-GB": "/sport-tickets/handball/golden-league-2020",
+    "es-ES": "/entradas-deportivas/balonmano/golden-liga-2020"
+  },
+  "/sport-tickets/rugby/quilter-international": {
+    "en-GB": "/sport-tickets/rugby/quilter-international",
+    "es-ES": "/entradas-deportivas/rugby/quilter-internacional"
+  },
+  "/sport-tickets/other-sports/manbet-welsh-open-2019": {
+    "en-GB": "/sport-tickets/other-sports/manbet-welsh-open-2019",
+    "es-ES": "/entradas-deportivas/otros-deportes/manbet-welsh-abierto-2019"
+  },
+  "/sport-tickets/rugby/guinness-summer-series": {
+    "en-GB": "/sport-tickets/rugby/guinness-summer-series",
+    "es-ES": "/entradas-deportivas/rugby/guinness-verano-series"
+  },
+  "/sport-tickets/boxing/muay-thai-kick-boxing-grand-prix": {
+    "en-GB": "/sport-tickets/boxing/muay-thai-kick-boxing-grand-prix",
+    "es-ES": "/entradas-deportivas/boxeo/muay-thai-kick-boxeo-gran-premio"
+  },
+  "/sport-tickets/football/european-super-cup": {
+    "en-GB": "/sport-tickets/football/european-super-cup",
+    "es-ES": "/entradas-deportivas/futbol/european-super-copa"
+  },
+  "/sport-tickets/boxing/championship-boxing": {
+    "en-GB": "/sport-tickets/boxing/championship-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/campeonato-boxeo"
+  },
+  "/sport-tickets/rugby/summer-internationals": {
+    "en-GB": "/sport-tickets/rugby/summer-internationals",
+    "es-ES": "/entradas-deportivas/rugby/verano-internationals"
+  },
+  "/sport-tickets/ice-hockey/national-league-switzerland-hockey": {
+    "en-GB": "/sport-tickets/ice-hockey/national-league-switzerland-hockey",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/national-liga-switzerland-hockey"
+  },
+  "/sport-tickets/cricket/big-bash-league": {
+    "en-GB": "/sport-tickets/cricket/big-bash-league",
+    "es-ES": "/entradas-deportivas/cricket/big-bash-liga"
+  },
+  "/sport-tickets/football/womens-champions-league": {
+    "en-GB": "/sport-tickets/football/womens-champions-league",
+    "es-ES": "/entradas-deportivas/futbol/womens-campeones-liga"
+  },
+  "/sport-tickets/basketball/basketball-bundesliga": {
+    "en-GB": "/sport-tickets/basketball/basketball-bundesliga",
+    "es-ES": "/entradas-deportivas/baloncesto/baloncesto-bundesliga"
+  },
+  "/sport-tickets/esports/league-of-legends": {
+    "en-GB": "/sport-tickets/esports/league-of-legends",
+    "es-ES": "/entradas-deportivas/esports/liga-of-leyendas"
+  },
+  "/sport-tickets/motorsport/night-of-the-jumps": {
+    "en-GB": "/sport-tickets/motorsport/night-of-the-jumps",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/noche-of-the-jumps"
+  },
+  "/sport-tickets/boxing/bettys-boxing": {
+    "en-GB": "/sport-tickets/boxing/bettys-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/bettys-boxeo"
+  },
+  "/sport-tickets/motorsport/arena-cross-tour": {
+    "en-GB": "/sport-tickets/motorsport/arena-cross-tour",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/arena-cross-torneo"
+  },
+  "/sport-tickets/football/a-league": {
+    "en-GB": "/sport-tickets/football/a-league",
+    "es-ES": "/entradas-deportivas/futbol/a-liga"
+  },
+  "/sport-tickets/athletics/orlen-copernicus-cup": {
+    "en-GB": "/sport-tickets/athletics/orlen-copernicus-cup",
+    "es-ES": "/entradas-deportivas/atletismo/orlen-copernicus-copa"
+  },
+  "/sport-tickets/athletics/british-athletics-2020-season": {
+    "en-GB": "/sport-tickets/athletics/british-athletics-2020-season",
+    "es-ES": "/entradas-deportivas/atletismo/britanica-atletismo-2020-season"
+  },
+  "/sport-tickets/cricket/international-fixtures": {
+    "en-GB": "/sport-tickets/cricket/international-fixtures",
+    "es-ES": "/entradas-deportivas/cricket/internacional-fixtures"
+  },
+  "/sport-tickets/darts/grand-slam-of-darts": {
+    "en-GB": "/sport-tickets/darts/grand-slam-of-darts",
+    "es-ES": "/entradas-deportivas/dardos/gran-slam-of-dardos"
+  },
+  "/sport-tickets/darts/the-bdo-world-professional-darts-championships": {
+    "en-GB": "/sport-tickets/darts/the-bdo-world-professional-darts-championships",
+    "es-ES": "/entradas-deportivas/dardos/the-bdo-mundial-professional-dardos-championships"
+  },
+  "/sport-tickets/motorsport/fia-formula-one-world-championship": {
+    "en-GB": "/sport-tickets/motorsport/fia-formula-one-world-championship",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/fia-formula-one-mundial-campeonato"
+  },
+  "/sport-tickets/football/club-world-cup": {
+    "en-GB": "/sport-tickets/football/club-world-cup",
+    "es-ES": "/entradas-deportivas/futbol/fifa-world-cup"
+  },
+  "/sport-tickets/football/international-friendly-matches": {
+    "en-GB": "/sport-tickets/football/international-friendly-matches",
+    "es-ES": "/entradas-deportivas/futbol/internacional-amistoso-matches"
+  },
+  "/sport-tickets/basketball/league-proa": {
+    "en-GB": "/sport-tickets/basketball/league-proa",
+    "es-ES": "/entradas-deportivas/baloncesto/liga-proa"
+  },
+  "/sport-tickets/tennis/abn-amro-open": {
+    "en-GB": "/sport-tickets/tennis/abn-amro-open",
+    "es-ES": "/entradas-deportivas/tenis/abn-amro-abierto"
+  },
+  "/sport-tickets/other-sports/world-skateboard-championship": {
+    "en-GB": "/sport-tickets/other-sports/world-skateboard-championship",
+    "es-ES": "/entradas-deportivas/otros-deportes/mundial-skateboard-campeonato"
+  },
+  "/sport-tickets/rugby/lions-tour-to-south-africa-2021": {
+    "en-GB": "/sport-tickets/rugby/lions-tour-to-south-africa-2021",
+    "es-ES": "/entradas-deportivas/rugby/lions-torneo-to-south-africa-2021"
+  },
+  "/sport-tickets/darts/austrian-darts-open": {
+    "en-GB": "/sport-tickets/darts/austrian-darts-open",
+    "es-ES": "/entradas-deportivas/dardos/austrian-dardos-abierto"
+  },
+  "/sport-tickets/darts/betfred-world-matchplay": {
+    "en-GB": "/sport-tickets/darts/betfred-world-matchplay",
+    "es-ES": "/entradas-deportivas/dardos/betfred-mundial-matchplay"
+  },
+  "/sport-tickets/other-sports/down-under-crossfit-championship": {
+    "en-GB": "/sport-tickets/other-sports/down-under-crossfit-championship",
+    "es-ES": "/entradas-deportivas/otros-deportes/down-under-crossfit-campeonato"
+  },
+  "/sport-tickets/darts/ally-pally-student-darts": {
+    "en-GB": "/sport-tickets/darts/ally-pally-student-darts",
+    "es-ES": "/entradas-deportivas/dardos/ally-pally-student-dardos"
+  },
+  "/sport-tickets/basketball/bbl-cup": {
+    "en-GB": "/sport-tickets/basketball/bbl-cup",
+    "es-ES": "/entradas-deportivas/baloncesto/bbl-copa"
+  },
+  "/sport-tickets/motorsport/speedway-euro-championship": {
+    "en-GB": "/sport-tickets/motorsport/speedway-euro-championship",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/speedway-euro-campeonato"
+  },
+  "/sport-tickets/ice-hockey/iihf-world-championship-ice-hockey": {
+    "en-GB": "/sport-tickets/ice-hockey/iihf-world-championship-ice-hockey",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/iihf-mundial-campeonato-ice-hockey"
+  },
+  "/sport-tickets/boxing/heavyweight-championship-boxing": {
+    "en-GB": "/sport-tickets/boxing/heavyweight-championship-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/heavyweight-campeonato-boxeo"
+  },
+  "/sport-tickets/other-sports/tumbling-dmt-british-championships": {
+    "en-GB": "/sport-tickets/other-sports/tumbling-dmt-british-championships",
+    "es-ES": "/entradas-deportivas/otros-deportes/tumbling-dmt-britanica-championships"
+  },
+  "/festival-tickets/international-festivals/atlas-weekend-festivals": {
+    "en-GB": "/festival-tickets/international-festivals/atlas-weekend-festivals",
+    "es-ES": "/festival-tickets/festivales-internacionales/atlas-weekend-festivales"
+  },
+  "/festival-tickets/uk-festivals/greenwich-music-timefest": {
+    "en-GB": "/festival-tickets/uk-festivals/greenwich-music-timefest",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/greenwich-musica-timefest"
+  },
+  "/festival-tickets/uk-festivals/british-summer-time": {
+    "en-GB": "/festival-tickets/uk-festivals/british-summer-time",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/britanica-verano-time"
+  },
+  "/festival-tickets/festivals-in-germany/restless-summer": {
+    "en-GB": "/festival-tickets/festivals-in-germany/restless-summer",
+    "es-ES": "/festival-tickets/festivales-en-alemania/restless-verano"
+  },
+  "/festival-tickets/international-festivals/primer-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/primer-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/primer-musica-festival"
+  },
+  "/sport-tickets/basketball/ncaa-basketball": {
+    "en-GB": "/sport-tickets/basketball/ncaa-basketball",
+    "es-ES": "/entradas-deportivas/baloncesto/ncaa-baloncesto"
+  },
+  "/festival-tickets/uk-festivals/edinburgh-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/edinburgh-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/edinburgh-verano-sessions"
+  },
+  "/festival-tickets/festivals-in-netherlands/into-the-great-wide-open": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/into-the-great-wide-open",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/into-the-great-wide-abierto"
+  },
+  "/festival-tickets/uk-festivals/wirral-food-drink-and-music-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/wirral-food-drink-and-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/wirral-food-drink-and-musica-festival"
+  },
+  "/festival-tickets/international-festivals/one-africa-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/one-africa-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/one-africa-musica-festival"
+  },
+  "/festival-tickets/festivals-in-spain/a-summer-story": {
+    "en-GB": "/festival-tickets/festivals-in-spain/a-summer-story",
+    "es-ES": "/festival-tickets/festivales-espana/a-verano-historia"
+  },
+  "/festival-tickets/international-festivals/trapeton-summer-bash": {
+    "en-GB": "/festival-tickets/international-festivals/trapeton-summer-bash",
+    "es-ES": "/festival-tickets/festivales-internacionales/trapeton-verano-bash"
+  },
+  "/festival-tickets/international-festivals/north-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/north-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/north-musica-festival"
+  },
+  "/festival-tickets/festivals-in-australia/electric-avenue-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-australia/electric-avenue-music-festival",
+    "es-ES": "/festival-tickets/festivales-australia/electric-avenue-musica-festival"
+  },
+  "/festival-tickets/festivals-in-spain/doctor-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/doctor-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/doctor-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/glasgow-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/glasgow-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/glasgow-verano-sessions"
+  },
+  "/festival-tickets/international-festivals/super-bock-super-rock-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/super-bock-super-rock-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/super-bock-super-rock-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/bloodstock-open-air-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/bloodstock-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/bloodstock-abierto-air-festival"
+  },
+  "/festival-tickets/festivals-in-finland/tuska-open-air-festival": {
+    "en-GB": "/festival-tickets/festivals-in-finland/tuska-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-finland/tuska-abierto-air-festival"
+  },
+  "/festival-tickets/international-festivals/slavkov-open": {
+    "en-GB": "/festival-tickets/international-festivals/slavkov-open",
+    "es-ES": "/festival-tickets/festivales-internacionales/slavkov-abierto"
+  },
+  "/festival-tickets/festivals-in-spain/concert-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/concert-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/concert-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/lucca-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/lucca-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/lucca-verano-festival"
+  },
+  "/festival-tickets/festivals-in-spain/universal-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/universal-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/universal-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/kew-the-music": {
+    "en-GB": "/festival-tickets/uk-festivals/kew-the-music",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/kew-the-musica"
+  },
+  "/festival-tickets/international-festivals/vodafone-comedy-festival": {
+    "en-GB": "/festival-tickets/international-festivals/vodafone-comedy-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/vodafone-comedia-festival"
+  },
+  "/festival-tickets/uk-festivals/bbc-summer-social-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/bbc-summer-social-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/bbc-verano-social-festival"
+  },
+  "/festival-tickets/uk-festivals/loud-in-london": {
+    "en-GB": "/festival-tickets/uk-festivals/loud-in-london",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/loud-in-londres"
+  },
+  "/festival-tickets/festivals-in-germany/hamburg-international-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/hamburg-international-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/hamburg-internacional-musica-festival"
+  },
+  "/festival-tickets/festivals-in-germany/wireless-festival-germany": {
+    "en-GB": "/festival-tickets/festivals-in-germany/wireless-festival-germany",
+    "es-ES": "/festival-tickets/festivales-en-alemania/wireless-festival-alemania"
+  },
+  "/festival-tickets/international-festivals/summer-nights": {
+    "en-GB": "/festival-tickets/international-festivals/summer-nights",
+    "es-ES": "/festival-tickets/festivales-internacionales/verano-nights"
+  },
+  "/festival-tickets/uk-festivals/the-efg-london-jazz-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/the-efg-london-jazz-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/the-efg-londres-jazz-festival"
+  },
+  "/festival-tickets/uk-festivals/manchester-international-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/manchester-international-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/manchester-internacional-festival"
+  },
+  "/festival-tickets/festivals-in-netherlands/parkpop-saturday-night": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/parkpop-saturday-night",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/parkpop-saturday-noche"
+  },
+  "/festival-tickets/festivals-in-netherlands/our-story-15-years-tomorrowland": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/our-story-15-years-tomorrowland",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/our-historia-15-years-tomorrowland"
+  },
+  "/festival-tickets/uk-festivals/tokyo-world-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/tokyo-world-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/tokyo-mundial-festival"
+  },
+  "/festival-tickets/uk-festivals/somerset-house-summer-series": {
+    "en-GB": "/festival-tickets/uk-festivals/somerset-house-summer-series",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/somerset-house-verano-series"
+  },
+  "/festival-tickets/uk-festivals/let-it-roll-open-air-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/let-it-roll-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/let-it-roll-abierto-air-festival"
+  },
+  "/festival-tickets/festivals-in-france/festival-music-en-avre": {
+    "en-GB": "/festival-tickets/festivals-in-france/festival-music-en-avre",
+    "es-ES": "/festival-tickets/festivales-en-francia/festival-musica-en-avre"
+  },
+  "/festival-tickets/festivals-in-france/le-passage-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-france/le-passage-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-francia/le-passage-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/balkans-music-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/balkans-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/balkans-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/love-classical": {
+    "en-GB": "/festival-tickets/uk-festivals/love-classical",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/love-clasica"
+  },
+  "/festival-tickets/festivals-in-australia/red-hot-summer-tour": {
+    "en-GB": "/festival-tickets/festivals-in-australia/red-hot-summer-tour",
+    "es-ES": "/festival-tickets/festivales-australia/red-hot-verano-torneo"
+  },
+  "/festival-tickets/festivals-in-netherlands/hip-hop-festivals": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/hip-hop-festivals",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/hip-hop-festivales"
+  },
+  "/festival-tickets/festivals-in-netherlands/we-are-the-future": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/we-are-the-future",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/we-are-the-futuro"
+  },
+  "/festival-tickets/uk-festivals/highest-point-music-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/highest-point-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/highest-point-musica-festival"
+  },
+  "/festival-tickets/festivals-in-germany/eschweiler-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/eschweiler-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/eschweiler-musica-festival"
+  },
+  "/festival-tickets/festivals-in-sweden/a-summer-evening-with": {
+    "en-GB": "/festival-tickets/festivals-in-sweden/a-summer-evening-with",
+    "es-ES": "/festival-tickets/festivales-en-sweden/a-verano-evening-with"
+  },
+  "/festival-tickets/international-festivals/playback-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/playback-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/playback-musica-festival"
+  },
+  "/festival-tickets/festivals-in-india/oneplus-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-india/oneplus-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-india/oneplus-musica-festival"
+  },
+  "/festival-tickets/festivals-in-australia/under-the-southern-stars": {
+    "en-GB": "/festival-tickets/festivals-in-australia/under-the-southern-stars",
+    "es-ES": "/festival-tickets/festivales-australia/under-the-southern-estrellas"
+  },
+  "/festival-tickets/international-festivals/dublin-summer-series": {
+    "en-GB": "/festival-tickets/international-festivals/dublin-summer-series",
+    "es-ES": "/festival-tickets/festivales-internacionales/dublin-verano-series"
+  },
+  "/festival-tickets/festivals-in-netherlands/amsterdam-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/amsterdam-open-air",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/amsterdam-abierto-air"
+  },
+  "/festival-tickets/festivals-in-spain/polo-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/polo-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/polo-musica-festival"
+  },
+  "/festival-tickets/international-festivals/sumol-summer-fest": {
+    "en-GB": "/festival-tickets/international-festivals/sumol-summer-fest",
+    "es-ES": "/festival-tickets/festivales-internacionales/sumol-verano-fest"
+  },
+  "/festival-tickets/festivals-in-australia/sydney-comedy-festival": {
+    "en-GB": "/festival-tickets/festivals-in-australia/sydney-comedy-festival",
+    "es-ES": "/festival-tickets/festivales-australia/sydney-comedia-festival"
+  },
+  "/festival-tickets/festivals-in-netherlands/oh-my-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/oh-my-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/oh-my-musica-festival"
+  },
+  "/festival-tickets/international-festivals/open-air-lumnezia": {
+    "en-GB": "/festival-tickets/international-festivals/open-air-lumnezia",
+    "es-ES": "/festival-tickets/festivales-internacionales/abierto-air-lumnezia"
+  },
+  "/festival-tickets/festivals-in-spain/turmalina-music-wine-fest": {
+    "en-GB": "/festival-tickets/festivals-in-spain/turmalina-music-wine-fest",
+    "es-ES": "/festival-tickets/festivales-espana/turmalina-musica-wine-fest"
+  },
+  "/festival-tickets/festivals-in-spain/bbk-music-legends-fest": {
+    "en-GB": "/festival-tickets/festivals-in-spain/bbk-music-legends-fest",
+    "es-ES": "/festival-tickets/festivales-espana/bbk-musica-leyendas-fest"
+  },
+  "/festival-tickets/festivals-in-spain/stone-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/stone-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/stone-musica-festival"
+  },
+  "/festival-tickets/festivals-in-netherlands/dance-valley": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/dance-valley",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/danza-valley"
+  },
+  "/festival-tickets/edm-festivals/amsterdam-music-festival-amf": {
+    "en-GB": "/festival-tickets/edm-festivals/amsterdam-music-festival-amf",
+    "es-ES": "/festival-tickets/edm-festivales/amsterdam-musica-festival-amf"
+  },
+  "/festival-tickets/international-festivals/trinity-summer-series": {
+    "en-GB": "/festival-tickets/international-festivals/trinity-summer-series",
+    "es-ES": "/festival-tickets/festivales-internacionales/trinity-verano-series"
+  },
+  "/festival-tickets/international-festivals/galway-international-arts-festival": {
+    "en-GB": "/festival-tickets/international-festivals/galway-international-arts-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/galway-internacional-arts-festival"
+  },
+  "/festival-tickets/festivals-in-spain/cita-en-mairena-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/cita-en-mairena-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/cita-en-mairena-musica-festival"
+  },
+  "/festival-tickets/festivals-in-germany/dresden-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/dresden-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/dresden-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/milano-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/milano-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/milano-verano-festival"
+  },
+  "/festival-tickets/uk-festivals/greenwich-comedy-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/greenwich-comedy-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/greenwich-comedia-festival"
+  },
+  "/sport-tickets/rugby/the-rugby-championship": {
+    "en-GB": "/sport-tickets/rugby/the-rugby-championship",
+    "es-ES": "/entradas-deportivas/rugby/the-rugby-campeonato"
+  },
+  "/sport-tickets/rugby/rugby-league-world-cup": {
+    "en-GB": "/sport-tickets/rugby/rugby-league-world-cup",
+    "es-ES": "/entradas-deportivas/rugby/rugby-liga-mundial-copa"
+  },
+  "/festival-tickets/festivals-in-germany/wacken-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-germany/wacken-open-air",
+    "es-ES": "/festival-tickets/festivales-en-alemania/wacken-abierto-air"
+  },
+  "/festival-tickets/uk-festivals/defected-london": {
+    "en-GB": "/festival-tickets/uk-festivals/defected-london",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/defected-londres"
+  },
+  "/sport-tickets/rugby/world-cup-2023": {
+    "en-GB": "/sport-tickets/rugby/world-cup-2023",
+    "es-ES": "/entradas-deportivas/rugby/mundial-copa-2023"
+  },
+  "/festival-tickets/uk-festivals/labyrinth-open-air": {
+    "en-GB": "/festival-tickets/uk-festivals/labyrinth-open-air",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/labyrinth-abierto-air"
+  },
+  "/sport-tickets/rugby/betfred-super-league": {
+    "en-GB": "/sport-tickets/rugby/betfred-super-league",
+    "es-ES": "/entradas-deportivas/rugby/betfred-super-liga"
+  },
+  "/festival-tickets/festivals-in-spain/mallorca-live-summer": {
+    "en-GB": "/festival-tickets/festivals-in-spain/mallorca-live-summer",
+    "es-ES": "/festival-tickets/festivales-espana/mallorca-live-verano"
+  },
+  "/sport-tickets/horse-racing/randox-grand-national-festival": {
+    "en-GB": "/sport-tickets/horse-racing/randox-grand-national-festival",
+    "es-ES": "/entradas-deportivas/carreras-de-caballos/randox-gran-national-festival"
+  },
+  "/festival-tickets/festivals-in-italy/luce-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/luce-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/luce-musica-festival"
+  },
+  "/festival-tickets/festivals-in-spain/cerdanya-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/cerdanya-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/cerdanya-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/decibel-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-italy/decibel-open-air",
+    "es-ES": "/festival-tickets/festivales-en-italia/decibel-abierto-air"
+  },
+  "/sport-tickets/football/friendly-matches": {
+    "en-GB": "/sport-tickets/football/friendly-matches",
+    "es-ES": "/entradas-deportivas/futbol/amistoso-matches"
+  },
+  "/sport-tickets/motorsport/motogp-world-championship": {
+    "en-GB": "/sport-tickets/motorsport/motogp-world-championship",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/motogp-mundial-campeonato"
+  },
+  "/festival-tickets/festivals-in-germany/download-germany-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/download-germany-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/download-alemania-festival"
+  },
+  "/sport-tickets/golf/the-open-championship": {
+    "en-GB": "/sport-tickets/golf/the-open-championship",
+    "es-ES": "/entradas-deportivas/golf/the-abierto-campeonato"
+  },
+  "/sport-tickets/football/world-cup-qualifier": {
+    "en-GB": "/sport-tickets/football/world-cup-qualifier",
+    "es-ES": "/entradas-deportivas/futbol/mundial-copa-qualifier"
+  },
+  "/festival-tickets/international-festivals/rockhal-open-air-festival": {
+    "en-GB": "/festival-tickets/international-festivals/rockhal-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/rockhal-abierto-air-festival"
+  },
+  "/festival-tickets/uk-festivals/dundee-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/dundee-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/dundee-verano-sessions"
+  },
+  "/festival-tickets/uk-festivals/feels-like-summer": {
+    "en-GB": "/festival-tickets/uk-festivals/feels-like-summer",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/feels-like-verano"
+  },
+  "/festival-tickets/international-festivals/moon-stars": {
+    "en-GB": "/festival-tickets/international-festivals/moon-stars",
+    "es-ES": "/festival-tickets/festivales-internacionales/moon-estrellas"
+  },
+  "/sport-tickets/football/dutch-eredivisie": {
+    "en-GB": "/sport-tickets/football/dutch-eredivisie",
+    "es-ES": "/entradas-deportivas/futbol/holandesa-eredivisie"
+  },
+  "/sport-tickets/boxing/matchroom-boxing": {
+    "en-GB": "/sport-tickets/boxing/matchroom-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/matchroom-boxeo"
+  },
+  "/festival-tickets/uk-festivals/rock-n-roll-circus-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/rock-n-roll-circus-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/rock-n-roll-circo-festival"
+  },
+  "/sport-tickets/boxing/boxstar-celebrity-boxing": {
+    "en-GB": "/sport-tickets/boxing/boxstar-celebrity-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/boxstar-celebrity-boxeo"
+  },
+  "/sport-tickets/boxing/probellum-boxing": {
+    "en-GB": "/sport-tickets/boxing/probellum-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/probellum-boxeo"
+  },
+  "/festival-tickets/uk-festivals/bbc-radio-6-music-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/bbc-radio-6-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/bbc-radio-6-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/summer-vibez-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/summer-vibez-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/verano-vibez-festival"
+  },
+  "/festival-tickets/festivals-in-netherlands/music-on-festival": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/music-on-festival",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/musica-on-festival"
+  },
+  "/sport-tickets/darts/world-series-of-darts": {
+    "en-GB": "/sport-tickets/darts/world-series-of-darts",
+    "es-ES": "/entradas-deportivas/dardos/mundial-series-of-dardos"
+  },
+  "/sport-tickets/other-sports/raw-grappling-championship": {
+    "en-GB": "/sport-tickets/other-sports/raw-grappling-championship",
+    "es-ES": "/entradas-deportivas/otros-deportes/raw-grappling-campeonato"
+  },
+  "/sport-tickets/football/nations-league": {
+    "en-GB": "/sport-tickets/football/nations-league",
+    "es-ES": "/entradas-deportivas/futbol/uefa-nations-league"
+  },
+  "/sport-tickets/boxing/professional-fighters-league": {
+    "en-GB": "/sport-tickets/boxing/professional-fighters-league",
+    "es-ES": "/entradas-deportivas/boxeo/professional-fighters-liga"
+  },
+  "/sport-tickets/other-sports/uci-track-champions-league": {
+    "en-GB": "/sport-tickets/other-sports/uci-track-champions-league",
+    "es-ES": "/entradas-deportivas/otros-deportes/uci-track-campeones-liga"
+  },
+  "/sport-tickets/american-football/nfl-international": {
+    "en-GB": "/sport-tickets/american-football/nfl-international",
+    "es-ES": "/entradas-deportivas/american-futbol/nfl-internacional"
+  },
+  "/sport-tickets/darts/world-darts-championship": {
+    "en-GB": "/sport-tickets/darts/world-darts-championship",
+    "es-ES": "/entradas-deportivas/dardos/mundial-dardos-campeonato"
+  },
+  "/sport-tickets/ice-hockey/elite-league": {
+    "en-GB": "/sport-tickets/ice-hockey/elite-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/elite-liga"
+  },
+  "/sport-tickets/boxing/british-super-welterweight-championship": {
+    "en-GB": "/sport-tickets/boxing/british-super-welterweight-championship",
+    "es-ES": "/entradas-deportivas/boxeo/britanica-super-welterweight-campeonato"
+  },
+  "/festival-tickets/festivals-in-germany/citadel-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/citadel-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/citadel-musica-festival"
+  },
+  "/sport-tickets/boxing/misfits-boxing": {
+    "en-GB": "/sport-tickets/boxing/misfits-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/misfits-boxeo"
+  },
+  "/festival-tickets/festivals-in-germany/lollapalooza-germany": {
+    "en-GB": "/festival-tickets/festivals-in-germany/lollapalooza-germany",
+    "es-ES": "/festival-tickets/festivales-en-alemania/lollapalooza-alemania"
+  },
+  "/sport-tickets/rugby/killik-cup": {
+    "en-GB": "/sport-tickets/rugby/killik-cup",
+    "es-ES": "/entradas-deportivas/rugby/killik-copa"
+  },
+  "/sport-tickets/football/uefa-europa-conference-league": {
+    "en-GB": "/sport-tickets/football/uefa-europa-conference-league",
+    "es-ES": "/entradas-deportivas/futbol/uefa-europa-conference-liga"
+  },
+  "/sport-tickets/tennis/energi-danmark-champions-battle": {
+    "en-GB": "/sport-tickets/tennis/energi-danmark-champions-battle",
+    "es-ES": "/entradas-deportivas/tenis/energi-danmark-campeones-battle"
+  },
+  "/festival-tickets/festivals-in-germany/i-em-music": {
+    "en-GB": "/festival-tickets/festivals-in-germany/i-em-music",
+    "es-ES": "/festival-tickets/festivales-en-alemania/i-em-musica"
+  },
+  "/festival-tickets/uk-festivals/uk-garage-all-stars": {
+    "en-GB": "/festival-tickets/uk-festivals/uk-garage-all-stars",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/uk-garage-all-estrellas"
+  },
+  "/festival-tickets/international-festivals/retro-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/retro-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/retro-musica-festival"
+  },
+  "/sport-tickets/boxing/gold-boxing": {
+    "en-GB": "/sport-tickets/boxing/gold-boxing",
+    "es-ES": "/entradas-deportivas/boxeo/gold-boxeo"
+  },
+  "/festival-tickets/international-festivals/summer-in-the-city": {
+    "en-GB": "/festival-tickets/international-festivals/summer-in-the-city",
+    "es-ES": "/festival-tickets/festivales-internacionales/verano-in-the-city"
+  },
+  "/festival-tickets/international-festivals/rovinj-summer-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/rovinj-summer-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/rovinj-verano-musica-festival"
+  },
+  "/festival-tickets/international-festivals/stars-of-sounds-festival": {
+    "en-GB": "/festival-tickets/international-festivals/stars-of-sounds-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/estrellas-of-sounds-festival"
+  },
+  "/festival-tickets/festivals-in-germany/rosenheim-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/rosenheim-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/rosenheim-verano-festival"
+  },
+  "/festival-tickets/international-festivals/stars-in-town-festival": {
+    "en-GB": "/festival-tickets/international-festivals/stars-in-town-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/estrellas-in-town-festival"
+  },
+  "/festival-tickets/uk-festivals/greenwich-summer-sounds": {
+    "en-GB": "/festival-tickets/uk-festivals/greenwich-summer-sounds",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/greenwich-verano-sounds"
+  },
+  "/sport-tickets/motorsport/formula-1-united-states-grand-prix": {
+    "en-GB": "/sport-tickets/motorsport/formula-1-united-states-grand-prix",
+    "es-ES": "/entradas-deportivas/deportes-de-motor/formula-1-unida-states-gran-premio"
+  },
+  "/sport-tickets/other-sports/danish-fight-night": {
+    "en-GB": "/sport-tickets/other-sports/danish-fight-night",
+    "es-ES": "/entradas-deportivas/otros-deportes/danish-pelea-noche"
+  },
+  "/sport-tickets/darts/poland-darts-masters": {
+    "en-GB": "/sport-tickets/darts/poland-darts-masters",
+    "es-ES": "/entradas-deportivas/dardos/poland-dardos-masters"
+  },
+  "/festival-tickets/uk-festivals/roundhouse-comedy-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/roundhouse-comedy-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/roundhouse-comedia-festival"
+  },
+  "/festival-tickets/festivals-in-poland/summer-jazz-festival-krakow": {
+    "en-GB": "/festival-tickets/festivals-in-poland/summer-jazz-festival-krakow",
+    "es-ES": "/festival-tickets/festivales-en-poland/verano-jazz-festival-krakow"
+  },
+  "/sport-tickets/basketball/coupe-de-france-basketball": {
+    "en-GB": "/sport-tickets/basketball/coupe-de-france-basketball",
+    "es-ES": "/entradas-deportivas/baloncesto/coupe-de-france"
+  },
+  "/festival-tickets/festivals-in-france/nancy-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-france/nancy-open-air",
+    "es-ES": "/festival-tickets/festivales-en-francia/nancy-abierto-air"
+  },
+  "/festival-tickets/international-festivals/open-air-gampel": {
+    "en-GB": "/festival-tickets/international-festivals/open-air-gampel",
+    "es-ES": "/festival-tickets/festivales-internacionales/abierto-air-gampel"
+  },
+  "/sport-tickets/football/swiss-promotion-league": {
+    "en-GB": "/sport-tickets/football/swiss-promotion-league",
+    "es-ES": "/entradas-deportivas/futbol/swiss-promotion-liga"
+  },
+  "/festival-tickets/international-festivals/sommerliebe-open-air": {
+    "en-GB": "/festival-tickets/international-festivals/sommerliebe-open-air",
+    "es-ES": "/festival-tickets/festivales-internacionales/sommerliebe-abierto-air"
+  },
+  "/festival-tickets/uk-festivals/margate-summer-series": {
+    "en-GB": "/festival-tickets/uk-festivals/margate-summer-series",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/margate-verano-series"
+  },
+  "/festival-tickets/festivals-in-italy/ama-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/ama-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/ama-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/chiari-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/chiari-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/chiari-musica-festival"
+  },
+  "/sport-tickets/other-sports/the-mosconi-cup": {
+    "en-GB": "/sport-tickets/other-sports/the-mosconi-cup",
+    "es-ES": "/entradas-deportivas/otros-deportes/the-mosconi-copa"
+  },
+  "/sport-tickets/darts/boylesports-world-grand-prix": {
+    "en-GB": "/sport-tickets/darts/boylesports-world-grand-prix",
+    "es-ES": "/entradas-deportivas/dardos/boylesports-mundial-gran-premio"
+  },
+  "/sport-tickets/tennis/cinch-championship": {
+    "en-GB": "/sport-tickets/tennis/cinch-championship",
+    "es-ES": "/entradas-deportivas/tenis/cinch-campeonato"
+  },
+  "/sport-tickets/other-sports/olympic-games": {
+    "en-GB": "/sport-tickets/other-sports/olympic-games",
+    "es-ES": "/entradas-deportivas/otros-deportes/olympic-juegos"
+  },
+  "/sport-tickets/american-football/european-league-of-football": {
+    "en-GB": "/sport-tickets/american-football/european-league-of-football",
+    "es-ES": "/entradas-deportivas/american-futbol/european-liga-of-football"
+  },
+  "/sport-tickets/tennis/mutua-madrid-open": {
+    "en-GB": "/sport-tickets/tennis/mutua-madrid-open",
+    "es-ES": "/entradas-deportivas/tenis/mutua-madrid-abierto"
+  },
+  "/festival-tickets/festivals-in-spain/coca-cola-music-experience": {
+    "en-GB": "/festival-tickets/festivals-in-spain/coca-cola-music-experience",
+    "es-ES": "/festival-tickets/festivales-espana/coca-cola-musica-experience"
+  },
+  "/sport-tickets/cricket/county-championship": {
+    "en-GB": "/sport-tickets/cricket/county-championship",
+    "es-ES": "/entradas-deportivas/cricket/county-campeonato"
+  },
+  "/sport-tickets/cricket/one-day-cup": {
+    "en-GB": "/sport-tickets/cricket/one-day-cup",
+    "es-ES": "/entradas-deportivas/cricket/one-day-copa"
+  },
+  "/sport-tickets/rugby/world-cup-winners": {
+    "en-GB": "/sport-tickets/rugby/world-cup-winners",
+    "es-ES": "/entradas-deportivas/rugby/mundial-copa-winners"
+  },
+  "/sport-tickets/darts/dutch-darts-masters": {
+    "en-GB": "/sport-tickets/darts/dutch-darts-masters",
+    "es-ES": "/entradas-deportivas/dardos/holandesa-dardos-masters"
+  },
+  "/sport-tickets/cricket/cricket-world-cup": {
+    "en-GB": "/sport-tickets/cricket/cricket-world-cup",
+    "es-ES": "/entradas-deportivas/cricket/cricket-mundial-copa"
+  },
+  "/sport-tickets/other-sports/blast-premier": {
+    "en-GB": "/sport-tickets/other-sports/blast-premier",
+    "es-ES": "/entradas-deportivas/otros-deportes/blast-liga-premier"
+  },
+  "/concert-tickets/other-concerts/miles-kane-one-man-band-solo-tour": {
+    "en-GB": "/concert-tickets/other-concerts/miles-kane-one-man-band-solo-tour",
+    "es-ES": "/concierto-entradas/otros-conciertos/miles-kane-one-man-band-solo-torneo"
+  },
+  "/sport-tickets/other-sports/netball-super-league": {
+    "en-GB": "/sport-tickets/other-sports/netball-super-league",
+    "es-ES": "/entradas-deportivas/otros-deportes/netball-super-liga"
+  },
+  "/sport-tickets/tennis/summer-games": {
+    "en-GB": "/sport-tickets/tennis/summer-games",
+    "es-ES": "/entradas-deportivas/tenis/verano-juegos"
+  },
+  "/concert-tickets/alternative-indie/20-years-tour": {
+    "en-GB": "/concert-tickets/alternative-indie/20-years-tour",
+    "es-ES": "/concierto-entradas/alternative-e-indie/20-years-torneo"
+  },
+  "/festival-tickets/us-festivals/winter-tour-2024": {
+    "en-GB": "/festival-tickets/us-festivals/winter-tour-2024",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/invierno-torneo-2024"
+  },
+  "/concert-tickets/rock/north-american-tour-2024": {
+    "en-GB": "/concert-tickets/rock/north-american-tour-2024",
+    "es-ES": "/concierto-entradas/rock/north-american-torneo-2024"
+  },
+  "/concert-tickets/pop/the-celebration-tour": {
+    "en-GB": "/concert-tickets/pop/the-celebration-tour",
+    "es-ES": "/concierto-entradas/pop/the-celebration-torneo"
+  },
+  "/concert-tickets/pop/the-eras-tour": {
+    "en-GB": "/concert-tickets/pop/the-eras-tour",
+    "es-ES": "/concierto-entradas/pop/the-eras-torneo"
+  },
+  "/concert-tickets/pop/dead-on-arrival-tour": {
+    "en-GB": "/concert-tickets/pop/dead-on-arrival-tour",
+    "es-ES": "/concierto-entradas/pop/dead-on-arrival-torneo"
+  },
+  "/concert-tickets/alternative-indie/inner-light-tour-2024": {
+    "en-GB": "/concert-tickets/alternative-indie/inner-light-tour-2024",
+    "es-ES": "/concierto-entradas/alternative-e-indie/inner-light-torneo-2024"
+  },
+  "/concert-tickets/country-folk/mule-pull-24-tour": {
+    "en-GB": "/concert-tickets/country-folk/mule-pull-24-tour",
+    "es-ES": "/concierto-entradas/country-folk/mule-pull-24-torneo"
+  },
+  "/concert-tickets/rock/olustee-tour": {
+    "en-GB": "/concert-tickets/rock/olustee-tour",
+    "es-ES": "/concierto-entradas/rock/olustee-torneo"
+  },
+  "/festival-tickets/festivals-in-italy/roma-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/roma-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/roma-verano-festival"
+  },
+  "/festival-tickets/festivals-in-italy/mantova-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/mantova-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/mantova-verano-festival"
+  },
+  "/festival-tickets/uk-festivals/llangollen-international-musical-eisteddfod": {
+    "en-GB": "/festival-tickets/uk-festivals/llangollen-international-musical-eisteddfod",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/llangollen-internacional-musical-eisteddfod"
+  },
+  "/sport-tickets/boxing/married-at-first-fight": {
+    "en-GB": "/sport-tickets/boxing/married-at-first-fight",
+    "es-ES": "/entradas-deportivas/boxeo/married-at-first-pelea"
+  },
+  "/festival-tickets/festivals-in-netherlands/the-rock-circus-festival": {
+    "en-GB": "/festival-tickets/festivals-in-netherlands/the-rock-circus-festival",
+    "es-ES": "/festival-tickets/festivales-en-paises-bajos/the-rock-circo-festival"
+  },
+  "/festival-tickets/international-festivals/metalfest-open-air": {
+    "en-GB": "/festival-tickets/international-festivals/metalfest-open-air",
+    "es-ES": "/festival-tickets/festivales-internacionales/metalfest-abierto-air"
+  },
+  "/sport-tickets/baseball/mlb-world": {
+    "en-GB": "/sport-tickets/baseball/mlb-world",
+    "es-ES": "/entradas-deportivas/beisbol/mlb-mundial"
+  },
+  "/festival-tickets/festivals-in-germany/greenfields-open-air-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/greenfields-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/greenfields-abierto-air-festival"
+  },
+  "/festival-tickets/festivals-in-spain/tenerife-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/tenerife-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/tenerife-musica-festival"
+  },
+  "/sport-tickets/rugby/six-nations-under-20s-championship": {
+    "en-GB": "/sport-tickets/rugby/six-nations-under-20s-championship",
+    "es-ES": "/entradas-deportivas/rugby/seis-naciones-under-20s-campeonato"
+  },
+  "/sport-tickets/rugby/guinness-womens-six-nations": {
+    "en-GB": "/sport-tickets/rugby/guinness-womens-six-nations",
+    "es-ES": "/entradas-deportivas/rugby/guinness-womens-seis-naciones"
+  },
+  "/festival-tickets/international-festivals/trutnoff-open-air": {
+    "en-GB": "/festival-tickets/international-festivals/trutnoff-open-air",
+    "es-ES": "/festival-tickets/festivales-internacionales/trutnoff-abierto-air"
+  },
+  "/festival-tickets/festivals-in-germany/isle-of-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/isle-of-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/isle-of-verano-festival"
+  },
+  "/festival-tickets/festivals-in-france/touquet-music-beach-festival": {
+    "en-GB": "/festival-tickets/festivals-in-france/touquet-music-beach-festival",
+    "es-ES": "/festival-tickets/festivales-en-francia/touquet-musica-beach-festival"
+  },
+  "/sport-tickets/rugby/epcr-challenge-cup": {
+    "en-GB": "/sport-tickets/rugby/epcr-challenge-cup",
+    "es-ES": "/entradas-deportivas/rugby/epcr-challenge-copa"
+  },
+  "/sport-tickets/rugby/european-cup": {
+    "en-GB": "/sport-tickets/rugby/european-cup",
+    "es-ES": "/entradas-deportivas/rugby/european-copa"
+  },
+  "/festival-tickets/us-festivals/hoxeyville-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/hoxeyville-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/hoxeyville-musica-festival"
+  },
+  "/festival-tickets/us-festivals/outside-lands-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/outside-lands-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/outside-lands-musica-festival"
+  },
+  "/festival-tickets/international-festivals/boots-and-hearts-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/boots-and-hearts-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/boots-and-hearts-musica-festival"
+  },
+  "/festival-tickets/international-festivals/osheaga-music-and-arts-festival": {
+    "en-GB": "/festival-tickets/international-festivals/osheaga-music-and-arts-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/osheaga-musica-and-arts-festival"
+  },
+  "/festival-tickets/us-festivals/watershed-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/watershed-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/watershed-musica-festival"
+  },
+  "/festival-tickets/us-festivals/barefoot-country-music-fest": {
+    "en-GB": "/festival-tickets/us-festivals/barefoot-country-music-fest",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/barefoot-country-musica-fest"
+  },
+  "/festival-tickets/us-festivals/green-river-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/green-river-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/green-river-musica-festival"
+  },
+  "/festival-tickets/us-festivals/hwy30-music-fest": {
+    "en-GB": "/festival-tickets/us-festivals/hwy30-music-fest",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/hwy30-musica-fest"
+  },
+  "/festival-tickets/us-festivals/sxsw-music": {
+    "en-GB": "/festival-tickets/us-festivals/sxsw-music",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/sxsw-musica"
+  },
+  "/festival-tickets/us-festivals/resonate-suwannee-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/resonate-suwannee-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/resonate-suwannee-musica-festival"
+  },
+  "/festival-tickets/us-festivals/farm-jam-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/farm-jam-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/farm-jam-musica-festival"
+  },
+  "/festival-tickets/festivals-in-germany/dong-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-germany/dong-open-air",
+    "es-ES": "/festival-tickets/festivales-en-alemania/dong-abierto-air"
+  },
+  "/festival-tickets/festivals-in-france/sylak-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-france/sylak-open-air",
+    "es-ES": "/festival-tickets/festivales-en-francia/sylak-abierto-air"
+  },
+  "/festival-tickets/festivals-in-germany/party-san-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-germany/party-san-open-air",
+    "es-ES": "/festival-tickets/festivales-en-alemania/party-san-abierto-air"
+  },
+  "/festival-tickets/festivals-in-spain/summer-party": {
+    "en-GB": "/festival-tickets/festivals-in-spain/summer-party",
+    "es-ES": "/festival-tickets/festivales-espana/verano-party"
+  },
+  "/festival-tickets/festivals-in-germany/summer-breeze-open-air": {
+    "en-GB": "/festival-tickets/festivals-in-germany/summer-breeze-open-air",
+    "es-ES": "/festival-tickets/festivales-en-alemania/verano-breeze-abierto-air"
+  },
+  "/festival-tickets/festivals-in-italy/sequoie-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/sequoie-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/sequoie-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/over-sound-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/over-sound-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/over-sound-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/roccella-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/roccella-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/roccella-verano-festival"
+  },
+  "/festival-tickets/festivals-in-germany/sputnik-spring-break-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/sputnik-spring-break-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/sputnik-primavera-break-festival"
+  },
+  "/festival-tickets/uk-festivals/bedford-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/bedford-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/bedford-verano-sessions"
+  },
+  "/festival-tickets/uk-festivals/chepstow-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/chepstow-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/chepstow-verano-sessions"
+  },
+  "/festival-tickets/uk-festivals/stirling-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/stirling-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/stirling-verano-sessions"
+  },
+  "/festival-tickets/festivals-in-italy/oversound-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/oversound-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/oversound-musica-festival"
+  },
+  "/concert-tickets/other-concerts/hitchin-priory-summer-series": {
+    "en-GB": "/concert-tickets/other-concerts/hitchin-priory-summer-series",
+    "es-ES": "/concierto-entradas/otros-conciertos/hitchin-priory-verano-series"
+  },
+  "/festival-tickets/festivals-in-spain/rtrn-ii-dance": {
+    "en-GB": "/festival-tickets/festivals-in-spain/rtrn-ii-dance",
+    "es-ES": "/festival-tickets/festivales-espana/rtrn-ii-danza"
+  },
+  "/festival-tickets/us-festivals/bonnaroo-music-arts-festival": {
+    "en-GB": "/festival-tickets/us-festivals/bonnaroo-music-arts-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/bonnaroo-musica-arts-festival"
+  },
+  "/festival-tickets/uk-festivals/centenary-square-summer-series": {
+    "en-GB": "/festival-tickets/uk-festivals/centenary-square-summer-series",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/centenary-square-verano-series"
+  },
+  "/festival-tickets/uk-festivals/summer-dayes": {
+    "en-GB": "/festival-tickets/uk-festivals/summer-dayes",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/verano-dayes"
+  },
+  "/festival-tickets/international-festivals/georgia-rodeo-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/georgia-rodeo-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/georgia-rodeo-musica-festival"
+  },
+  "/festival-tickets/us-festivals/cma-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/cma-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/cma-musica-festival"
+  },
+  "/sport-tickets/tennis/terra-wortmann-open": {
+    "en-GB": "/sport-tickets/tennis/terra-wortmann-open",
+    "es-ES": "/entradas-deportivas/tenis/terra-wortmann-abierto"
+  },
+  "/sport-tickets/tennis/bmw-open": {
+    "en-GB": "/sport-tickets/tennis/bmw-open",
+    "es-ES": "/entradas-deportivas/tenis/bmw-abierto"
+  },
+  "/sport-tickets/golf/genesis-scottish-open": {
+    "en-GB": "/sport-tickets/golf/genesis-scottish-open",
+    "es-ES": "/entradas-deportivas/golf/genesis-scottish-abierto"
+  },
+  "/sport-tickets/ice-hockey/western-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/western-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/western-hockey-liga"
+  },
+  "/sport-tickets/tennis/bnp-paribas-open": {
+    "en-GB": "/sport-tickets/tennis/bnp-paribas-open",
+    "es-ES": "/entradas-deportivas/tenis/bnp-paribas-abierto"
+  },
+  "/sport-tickets/ice-hockey/federal-prospects-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/federal-prospects-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/federal-prospects-hockey-liga"
+  },
+  "/sport-tickets/football/major-arena-soccer-league": {
+    "en-GB": "/sport-tickets/football/major-arena-soccer-league",
+    "es-ES": "/entradas-deportivas/futbol/major-arena-soccer-liga"
+  },
+  "/sport-tickets/ice-hockey/ahl-american-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/ahl-american-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/ahl-american-hockey-liga"
+  },
+  "/sport-tickets/ice-hockey/east-coast-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/east-coast-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/east-coast-hockey-liga"
+  },
+  "/sport-tickets/ice-hockey/ontario-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/ontario-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/ontario-hockey-liga"
+  },
+  "/sport-tickets/ice-hockey/minor-league-hockey": {
+    "en-GB": "/sport-tickets/ice-hockey/minor-league-hockey",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/minor-liga-hockey"
+  },
+  "/festival-tickets/uk-festivals/southampton-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/southampton-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/southampton-verano-sessions"
+  },
+  "/sport-tickets/ice-hockey/canadian-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/canadian-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/canadiense-hockey-liga"
+  },
+  "/sport-tickets/ice-hockey/united-states-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/united-states-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/unida-states-hockey-liga"
+  },
+  "/sport-tickets/golf/houston-open": {
+    "en-GB": "/sport-tickets/golf/houston-open",
+    "es-ES": "/entradas-deportivas/golf/houston-abierto"
+  },
+  "/sport-tickets/baseball/minor-league-baseball": {
+    "en-GB": "/sport-tickets/baseball/minor-league-baseball",
+    "es-ES": "/entradas-deportivas/beisbol/minor-liga-baseball"
+  },
+  "/sport-tickets/baseball/independent-league-baseball": {
+    "en-GB": "/sport-tickets/baseball/independent-league-baseball",
+    "es-ES": "/entradas-deportivas/beisbol/independent-liga-baseball"
+  },
+  "/sport-tickets/ice-hockey/southern-professional-hockey-league": {
+    "en-GB": "/sport-tickets/ice-hockey/southern-professional-hockey-league",
+    "es-ES": "/entradas-deportivas/hockey-sobre-hielo/southern-professional-hockey-liga"
+  },
+  "/sport-tickets/other-sports/blast-rocket-league": {
+    "en-GB": "/sport-tickets/other-sports/blast-rocket-league",
+    "es-ES": "/entradas-deportivas/otros-deportes/blast-rocket-liga"
+  },
+  "/festival-tickets/festivals-in-germany/panama-open-air-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/panama-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/panama-abierto-air-festival"
+  },
+  "/festival-tickets/festivals-in-france/bricks-electronic-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-france/bricks-electronic-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-francia/bricks-electronic-musica-festival"
+  },
+  "/festival-tickets/us-festivals/country-legends-festival": {
+    "en-GB": "/festival-tickets/us-festivals/country-legends-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/country-leyendas-festival"
+  },
+  "/sport-tickets/international-basketball/usa-basketball": {
+    "en-GB": "/sport-tickets/international-basketball/usa-basketball",
+    "es-ES": "/entradas-deportivas/international-basketball/usa-baloncesto"
+  },
+  "/sport-tickets/handball/ihf-mens-world-championship": {
+    "en-GB": "/sport-tickets/handball/ihf-mens-world-championship",
+    "es-ES": "/entradas-deportivas/balonmano/ihf-mens-mundial-campeonato"
+  },
+  "/sport-tickets/handball/ehf-champions-league": {
+    "en-GB": "/sport-tickets/handball/ehf-champions-league",
+    "es-ES": "/entradas-deportivas/balonmano/ehf-campeones-liga"
+  },
+  "/sport-tickets/basketball/usa-basketball-showcase": {
+    "en-GB": "/sport-tickets/basketball/usa-basketball-showcase",
+    "es-ES": "/entradas-deportivas/baloncesto/usa-baloncesto-showcase"
+  },
+  "/sport-tickets/darts/the-machineseeker-european-darts-championship": {
+    "en-GB": "/sport-tickets/darts/the-machineseeker-european-darts-championship",
+    "es-ES": "/entradas-deportivas/dardos/the-machineseeker-european-dardos-campeonato"
+  },
+  "/festival-tickets/us-festivals/shaky-knees-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/shaky-knees-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/shaky-knees-musica-festival"
+  },
+  "/festival-tickets/festivals-in-germany/county-open-air-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/county-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/county-abierto-air-festival"
+  },
+  "/festival-tickets/festivals-in-germany/open-r-festival": {
+    "en-GB": "/festival-tickets/festivals-in-germany/open-r-festival",
+    "es-ES": "/festival-tickets/festivales-en-alemania/abierto-r-festival"
+  },
+  "/festival-tickets/us-festivals/carolina-country-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/carolina-country-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/carolina-country-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/summer-sundays": {
+    "en-GB": "/festival-tickets/uk-festivals/summer-sundays",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/verano-sundays"
+  },
+  "/festival-tickets/us-festivals/kickn-up-kountry-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/kickn-up-kountry-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/kickn-up-kountry-musica-festival"
+  },
+  "/sport-tickets/rugby/british-irish-lions-mens-series": {
+    "en-GB": "/sport-tickets/rugby/british-irish-lions-mens-series",
+    "es-ES": "/entradas-deportivas/rugby/britanica-irish-lions-mens-series"
+  },
+  "/sport-tickets/horse-racing/longines-global-champions": {
+    "en-GB": "/sport-tickets/horse-racing/longines-global-champions",
+    "es-ES": "/entradas-deportivas/carreras-de-caballos/longines-global-campeones"
+  },
+  "/festival-tickets/us-festivals/night-in-the-country": {
+    "en-GB": "/festival-tickets/us-festivals/night-in-the-country",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/noche-in-the-country"
+  },
+  "/festival-tickets/us-festivals/pitchfork-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/pitchfork-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/pitchfork-musica-festival"
+  },
+  "/festival-tickets/us-festivals/levitate-music-and-arts-festival": {
+    "en-GB": "/festival-tickets/us-festivals/levitate-music-and-arts-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/levitate-musica-and-arts-festival"
+  },
+  "/festival-tickets/us-festivals/rise-up-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/rise-up-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/rise-up-musica-festival"
+  },
+  "/festival-tickets/us-festivals/lakefront-music-fest": {
+    "en-GB": "/festival-tickets/us-festivals/lakefront-music-fest",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/lakefront-musica-fest"
+  },
+  "/festival-tickets/international-festivals/cavendish-beach-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/cavendish-beach-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/cavendish-beach-musica-festival"
+  },
+  "/festival-tickets/international-festivals/lasso-music-festival": {
+    "en-GB": "/festival-tickets/international-festivals/lasso-music-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/lasso-musica-festival"
+  },
+  "/festival-tickets/festivals-in-belgium/open-air-festival": {
+    "en-GB": "/festival-tickets/festivals-in-belgium/open-air-festival",
+    "es-ES": "/festival-tickets/festivales-en-belgica/abierto-air-festival"
+  },
+  "/festival-tickets/international-festivals/summer-well": {
+    "en-GB": "/festival-tickets/international-festivals/summer-well",
+    "es-ES": "/festival-tickets/festivales-internacionales/verano-well"
+  },
+  "/festival-tickets/festivals-in-italy/arabax-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/arabax-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/arabax-musica-festival"
+  },
+  "/festival-tickets/us-festivals/hinterland-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/hinterland-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/hinterland-musica-festival"
+  },
+  "/festival-tickets/international-festivals/kcrw-world-festival": {
+    "en-GB": "/festival-tickets/international-festivals/kcrw-world-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/kcrw-mundial-festival"
+  },
+  "/sport-tickets/horse-racing/shergar-cup": {
+    "en-GB": "/sport-tickets/horse-racing/shergar-cup",
+    "es-ES": "/entradas-deportivas/carreras-de-caballos/shergar-copa"
+  },
+  "/sport-tickets/darts/helsinki-international-darts-cup": {
+    "en-GB": "/sport-tickets/darts/helsinki-international-darts-cup",
+    "es-ES": "/entradas-deportivas/dardos/helsinki-internacional-dardos-copa"
+  },
+  "/festival-tickets/us-festivals/grand-country-nights": {
+    "en-GB": "/festival-tickets/us-festivals/grand-country-nights",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/gran-country-nights"
+  },
+  "/festival-tickets/international-festivals/estivale-open-air": {
+    "en-GB": "/festival-tickets/international-festivals/estivale-open-air",
+    "es-ES": "/festival-tickets/festivales-internacionales/estivale-abierto-air"
+  },
+  "/festival-tickets/us-festivals/britt-music-and-arts": {
+    "en-GB": "/festival-tickets/us-festivals/britt-music-and-arts",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/britt-musica-and-arts"
+  },
+  "/festival-tickets/international-festivals/the-grand-festival": {
+    "en-GB": "/festival-tickets/international-festivals/the-grand-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/the-gran-festival"
+  },
+  "/festival-tickets/us-festivals/roostertail-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/roostertail-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/roostertail-musica-festival"
+  },
+  "/festival-tickets/us-festivals/pilgrimage-music-and-cultural-festival": {
+    "en-GB": "/festival-tickets/us-festivals/pilgrimage-music-and-cultural-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/pilgrimage-musica-and-cultural-festival"
+  },
+  "/festival-tickets/us-festivals/soundside-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/soundside-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/soundside-musica-festival"
+  },
+  "/festival-tickets/us-festivals/outlaw-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/outlaw-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/outlaw-musica-festival"
+  },
+  "/festival-tickets/us-festivals/hopscotch-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/hopscotch-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/hopscotch-musica-festival"
+  },
+  "/festival-tickets/us-festivals/phillips-backyard-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/phillips-backyard-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/phillips-backyard-musica-festival"
+  },
+  "/sport-tickets/football/jupiler-pro-league": {
+    "en-GB": "/sport-tickets/football/jupiler-pro-league",
+    "es-ES": "/entradas-deportivas/futbol/jupiler-pro-liga"
+  },
+  "/festival-tickets/us-festivals/golden-sky-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/golden-sky-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/golden-sky-musica-festival"
+  },
+  "/festival-tickets/us-festivals/xponential-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/xponential-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/xponential-musica-festival"
+  },
+  "/sport-tickets/golf/horizon-irish-open": {
+    "en-GB": "/sport-tickets/golf/horizon-irish-open",
+    "es-ES": "/entradas-deportivas/golf/horizon-irish-abierto"
+  },
+  "/festival-tickets/us-festivals/portola-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/portola-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/portola-musica-festival"
+  },
+  "/festival-tickets/us-festivals/palm-tree-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/palm-tree-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/palm-tree-musica-festival"
+  },
+  "/festival-tickets/uk-festivals/derby-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/derby-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/derby-verano-sessions"
+  },
+  "/festival-tickets/uk-festivals/streets-of-london": {
+    "en-GB": "/festival-tickets/uk-festivals/streets-of-london",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/streets-of-londres"
+  },
+  "/sport-tickets/basketball/super-league-basketball": {
+    "en-GB": "/sport-tickets/basketball/super-league-basketball",
+    "es-ES": "/entradas-deportivas/baloncesto/super-liga-baloncesto"
+  },
+  "/festival-tickets/international-festivals/rong-open-air-festival": {
+    "en-GB": "/festival-tickets/international-festivals/rong-open-air-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/rong-abierto-air-festival"
+  },
+  "/sport-tickets/esports/world-tour": {
+    "en-GB": "/sport-tickets/esports/world-tour",
+    "es-ES": "/entradas-deportivas/esports/mundial-torneo"
+  },
+  "/sport-tickets/golf/the-open-royal-portrush": {
+    "en-GB": "/sport-tickets/golf/the-open-royal-portrush",
+    "es-ES": "/entradas-deportivas/golf/the-abierto-royal-portrush"
+  },
+  "/sport-tickets/american-football/super-bowl-lx": {
+    "en-GB": "/sport-tickets/american-football/super-bowl-lx",
+    "es-ES": "/entradas-deportivas/american-futbol/super-bowl"
+  },
+  "/sport-tickets/golf/ryder-cup": {
+    "en-GB": "/sport-tickets/golf/ryder-cup",
+    "es-ES": "/entradas-deportivas/golf/ryder-copa"
+  },
+  "/festival-tickets/uk-festivals/colchester-castle-summer-series": {
+    "en-GB": "/festival-tickets/uk-festivals/colchester-castle-summer-series",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/colchester-castle-verano-series"
+  },
+  "/festival-tickets/festivals-in-italy/ferrara-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/ferrara-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/ferrara-verano-festival"
+  },
+  "/festival-tickets/us-festivals/cruel-world-festival": {
+    "en-GB": "/festival-tickets/us-festivals/cruel-world-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/cruel-mundial-festival"
+  },
+  "/festival-tickets/uk-festivals/plymouth-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/plymouth-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/plymouth-verano-sessions"
+  },
+  "/festival-tickets/uk-festivals/pendulum-summer-sessions": {
+    "en-GB": "/festival-tickets/uk-festivals/pendulum-summer-sessions",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/pendulum-verano-sessions"
+  },
+  "/festival-tickets/festivals-in-italy/marostica-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/marostica-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/marostica-verano-festival"
+  },
+  "/festival-tickets/us-festivals/sick-new-world": {
+    "en-GB": "/festival-tickets/us-festivals/sick-new-world",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/sick-new-mundial"
+  },
+  "/festival-tickets/international-festivals/monte-carlo-summer-festival": {
+    "en-GB": "/festival-tickets/international-festivals/monte-carlo-summer-festival",
+    "es-ES": "/festival-tickets/festivales-internacionales/monte-carlo-verano-festival"
+  },
+  "/festival-tickets/international-festivals/open-air-blues-festival-brezoi": {
+    "en-GB": "/festival-tickets/international-festivals/open-air-blues-festival-brezoi",
+    "es-ES": "/festival-tickets/festivales-internacionales/abierto-air-blues-festival-brezoi"
+  },
+  "/festival-tickets/uk-festivals/the-millenium-tour": {
+    "en-GB": "/festival-tickets/uk-festivals/the-millenium-tour",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/the-millenium-torneo"
+  },
+  "/festival-tickets/festivals-in-spain/stone-and-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-spain/stone-and-music-festival",
+    "es-ES": "/festival-tickets/festivales-espana/stone-and-musica-festival"
+  },
+  "/sport-tickets/football/spanish-super-cup": {
+    "en-GB": "/sport-tickets/football/spanish-super-cup",
+    "es-ES": "/entradas-deportivas/futbol/spanish-super-copa"
+  },
+  "/sport-tickets/football/2019-africa-cup-of-nations": {
+    "en-GB": "/sport-tickets/football/2019-africa-cup-of-nations",
+    "es-ES": "/entradas-deportivas/futbol/2019-africa-copa-of-naciones"
+  },
+  "/sport-tickets/football/club-world-cup-2025": {
+    "en-GB": "/sport-tickets/football/club-world-cup-2025",
+    "es-ES": "/entradas-deportivas/futbol/club-mundial-copa-2025"
+  },
+  "/festival-tickets/festivals-in-italy/brescia-summer-music": {
+    "en-GB": "/festival-tickets/festivals-in-italy/brescia-summer-music",
+    "es-ES": "/festival-tickets/festivales-en-italia/brescia-verano-musica"
+  },
+  "/festival-tickets/festivals-in-italy/bct-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/bct-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/bct-musica-festival"
+  },
+  "/sport-tickets/football/saudi-pro-league": {
+    "en-GB": "/sport-tickets/football/saudi-pro-league",
+    "es-ES": "/entradas-deportivas/futbol/saudi-pro-liga"
+  },
+  "/sport-tickets/football/italian-super-cup": {
+    "en-GB": "/sport-tickets/football/italian-super-cup",
+    "es-ES": "/entradas-deportivas/futbol/italiana-super-copa"
+  },
+  "/sport-tickets/darts/australian-darts-masters": {
+    "en-GB": "/sport-tickets/darts/australian-darts-masters",
+    "es-ES": "/entradas-deportivas/dardos/australia-dardos-masters"
+  },
+  "/festival-tickets/us-festivals/stagecoach-country-music-festival": {
+    "en-GB": "/festival-tickets/us-festivals/stagecoach-country-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-ee-uu/stagecoach-country-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/mirano-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/mirano-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/mirano-verano-festival"
+  },
+  "/festival-tickets/uk-festivals/one-world-music-festival": {
+    "en-GB": "/festival-tickets/uk-festivals/one-world-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/one-mundial-musica-festival"
+  },
+  "/festival-tickets/festivals-in-italy/vibes-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/vibes-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/vibes-verano-festival"
+  },
+  "/festival-tickets/festivals-in-france/caribbean-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-france/caribbean-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-francia/caribbean-verano-festival"
+  },
+  "/festival-tickets/festivals-in-italy/termoli-summer-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/termoli-summer-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/termoli-verano-festival"
+  },
+  "/sport-tickets/other-sports/rocket-league-world-championship": {
+    "en-GB": "/sport-tickets/other-sports/rocket-league-world-championship",
+    "es-ES": "/entradas-deportivas/otros-deportes/rocket-liga-mundial-campeonato"
+  },
+  "/sport-tickets/other-sports/fortnite-global-championship": {
+    "en-GB": "/sport-tickets/other-sports/fortnite-global-championship",
+    "es-ES": "/entradas-deportivas/otros-deportes/fortnite-global-campeonato"
+  },
+  "/sport-tickets/cricket/icc-champions-trophy": {
+    "en-GB": "/sport-tickets/cricket/icc-champions-trophy",
+    "es-ES": "/entradas-deportivas/cricket/icc-campeones-trophy"
+  },
+  "/sport-tickets/other-sports/the-grand-sumo-tournament": {
+    "en-GB": "/sport-tickets/other-sports/the-grand-sumo-tournament",
+    "es-ES": "/entradas-deportivas/otros-deportes/the-gran-sumo-tournament"
+  },
+  "/festival-tickets/festivals-in-italy/wonderlast-music-festival": {
+    "en-GB": "/festival-tickets/festivals-in-italy/wonderlast-music-festival",
+    "es-ES": "/festival-tickets/festivales-en-italia/wonderlast-musica-festival"
+  },
+  "/sport-tickets/darts/world-cup-of-darts": {
+    "en-GB": "/sport-tickets/darts/world-cup-of-darts",
+    "es-ES": "/entradas-deportivas/dardos/mundial-copa-of-dardos"
+  },
+  "/festival-tickets/festivals-in-spain/tenerife-cook-music-fest": {
+    "en-GB": "/festival-tickets/festivals-in-spain/tenerife-cook-music-fest",
+    "es-ES": "/festival-tickets/festivales-espana/tenerife-cook-musica-fest"
+  },
+  "/sport-tickets/darts/the-hyde-park-darts-championship": {
+    "en-GB": "/sport-tickets/darts/the-hyde-park-darts-championship",
+    "es-ES": "/entradas-deportivas/dardos/the-hyde-park-dardos-campeonato"
+  },
+  "/sport-tickets/football/scottish-cup": {
+    "en-GB": "/sport-tickets/football/scottish-cup",
+    "es-ES": "/entradas-deportivas/futbol/scottish-copa"
+  },
+  "/festival-tickets/uk-festivals/grand-ole-opry": {
+    "en-GB": "/festival-tickets/uk-festivals/grand-ole-opry",
+    "es-ES": "/festival-tickets/festivales-en-reino-unido/gran-ole-opry"
+  },
+  "/sport-tickets/esports/valorant-champions-paris": {
+    "en-GB": "/sport-tickets/esports/valorant-champions-paris",
+    "es-ES": "/entradas-deportivas/esports/valorant-campeones-paris"
+  },
+  "/festival-tickets/festivals-in-france/palm-tree-music-festivalfr": {
+    "en-GB": "/festival-tickets/festivals-in-france/palm-tree-music-festivalfr",
+    "es-ES": "/festival-tickets/festivales-en-francia/palm-tree-musica-festivalfr"
+  },
+  "/sport-tickets/rugby/united-rugby-championship": {
+    "en-GB": "/sport-tickets/rugby/united-rugby-championship",
+    "es-ES": "/entradas-deportivas/rugby/unida-rugby-campeonato"
+  },
+  "/festival-tickets/festivals-in-germany/ksk-music-open": {
+    "en-GB": "/festival-tickets/festivals-in-germany/ksk-music-open",
+    "es-ES": "/festival-tickets/festivales-en-alemania/ksk-musica-abierto"
+  },
+  "/sport-tickets/other-sports/english-open": {
+    "en-GB": "/sport-tickets/other-sports/english-open",
+    "es-ES": "/entradas-deportivas/otros-deportes/english-abierto"
+  },
+  "/sport-tickets/boxing/ibf-welterweight-world-title": {
+    "en-GB": "/sport-tickets/boxing/ibf-welterweight-world-title",
+    "es-ES": "/entradas-deportivas/boxeo/ibf-welterweight-mundial-title"
+  },
+  "/sport-tickets/athletics/world-athletics-championship": {
+    "en-GB": "/sport-tickets/athletics/world-athletics-championship",
+    "es-ES": "/entradas-deportivas/atletismo/mundial-atletismo-campeonato"
+  },
+  "/sport-tickets/basketball/dubai-basketball": {
+    "en-GB": "/sport-tickets/basketball/dubai-basketball",
+    "es-ES": "/entradas-deportivas/baloncesto/dubai-baloncesto"
+  },
+  "/sport-tickets/basketball/european-basketball-league": {
+    "en-GB": "/sport-tickets/basketball/european-basketball-league",
+    "es-ES": "/entradas-deportivas/baloncesto/euroleaguebasket"
+  },
+  "/sport-tickets/football/soccer-world-cup": {
+    "en-GB": "/sport-tickets/football/soccer-world-cup",
+    "es-ES": "/entradas-deportivas/futbol/world-cup"
+  },
+  "/concert-tickets/rock": {
+    "en-GB": "/rock",
+    "es-ES": "/rock"
+  },
+  "/concert-tickets/pop": {
+    "en-GB": "/pop",
+    "es-ES": "/pop"
+  },
+  "/concert-tickets/dance": {
+    "en-GB": "/dance",
+    "es-ES": "/danza"
+  },
+  "/concert-tickets/flamenco": {
+    "en-GB": "/flamenco",
+    "es-ES": "/flamenco"
+  },
+  "/concert-tickets/indie": {
+    "en-GB": "/indie",
+    "es-ES": "/indie"
+  },
+  "/concert-tickets/r-and-b": {
+    "en-GB": "/r-and-b",
+    "es-ES": "/r-y-b"
+  },
+  "/concert-tickets/rap": {
+    "en-GB": "/rap",
+    "es-ES": "/rap"
+  },
+  "/concert-tickets/country-folk": {
+    "en-GB": "/country-folk",
+    "es-ES": "/country-folk"
+  },
+  "/concert-tickets/hard-rock-metal": {
+    "en-GB": "/hard-rock-metal",
+    "es-ES": "/hard-rock-metal"
+  },
+  "/concert-tickets/jazz-blues": {
+    "en-GB": "/jazz-blues",
+    "es-ES": "/jazz-blues"
+  },
+  "/concert-tickets/world-music": {
+    "en-GB": "/world-music",
+    "es-ES": "/musicas-del-mundo"
+  },
+  "/concert-tickets/schlager": {
+    "en-GB": "/schlager",
+    "es-ES": "/schlager"
+  },
+  "/concert-tickets/j-pop": {
+    "en-GB": "/j-pop",
+    "es-ES": "/j-pop"
+  },
+  "/concert-tickets/k-pop": {
+    "en-GB": "/k-pop",
+    "es-ES": "/k-pop"
+  },
+  "/concert-tickets/other-concerts": {
+    "en-GB": "/other-concerts",
+    "es-ES": "/otros-conciertos"
+  },
+  "/concert-tickets/electronic": {
+    "en-GB": "/electronic",
+    "es-ES": "/electronica"
+  },
+  "/concert-tickets/opera": {
+    "en-GB": "/opera",
+    "es-ES": "/opera"
+  },
+  "/concert-tickets/varietes-francaises": {
+    "en-GB": "/varietes-francaises",
+    "es-ES": "/variedades-francesas"
+  },
+  "/concert-tickets/rock-pop": {
+    "en-GB": "/rock-pop",
+    "es-ES": "/rock-pop"
+  },
+  "/concert-tickets/alternative-indie": {
+    "en-GB": "/alternative-indie",
+    "es-ES": "/alternative-e-indie"
+  },
+  "/concert-tickets/rap-hip-hop-reggae": {
+    "en-GB": "/rap-hip-hop-reggae",
+    "es-ES": "/rap-hip-hop-reggae"
+  },
+  "/concert-tickets/rb-urban-soul": {
+    "en-GB": "/rb-urban-soul",
+    "es-ES": "/rb-y-soul-urbano"
+  },
+  "/concert-tickets/clubs-dance": {
+    "en-GB": "/clubs-dance",
+    "es-ES": "/clubs-danza"
+  },
+  "/concert-tickets/c-pop": {
+    "en-GB": "/c-pop",
+    "es-ES": "/c-pop"
+  },
+  "/concert-tickets/classicalmusic": {
+    "en-GB": "/classicalmusic",
+    "es-ES": "/clasico"
+  },
+  "/concert-tickets/latin": {
+    "en-GB": "/latin",
+    "es-ES": "/latin"
+  }
+}

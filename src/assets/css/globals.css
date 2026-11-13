@@ -1,0 +1,225 @@
+@import 'tailwindcss';
+@import './theme.css';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+:root {
+    --toastify-z-index: 99;
+}
+
+.iubenda-cs-preferences-link {
+    display: none !important;
+}
+
+#phoenix-widget-cta {
+    display: none !important;
+}
+
+/* Cross-browser scrollbar styling */
+* {
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(
+        180deg,
+        rgb(var(--main-gradient-start)),
+        rgb(var(--main-gradient-end))
+    );
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 9999px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.rdp-years_dropdown {
+    scrollbar-color: #a1a1aa transparent;
+}
+
+.rdp-years_dropdown::-webkit-scrollbar {
+    width: 4px;
+}
+
+.rdp-years_dropdown::-webkit-scrollbar-thumb {
+    background: #a1a1aa;
+}
+
+.rdp-years_dropdown::-webkit-scrollbar-thumb:hover {
+    background: #71717a;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+    display: none;
+}
+
+body:has([data-modal-open='true']) {
+    overflow: hidden;
+}
+
+body[data-ddv-viewer-fullscreen='true'] [data-ddv-hide-during-fullscreen] {
+    display: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+@keyframes ddv-tooltip-enter {
+    from {
+        opacity: 0;
+        transform: translateY(6px) scale(0.92);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fire-breathe {
+    0%,
+    100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 2px #ff4500) drop-shadow(0 0 3px #ffd700);
+    }
+    50% {
+        transform: scale(1.08);
+        filter: drop-shadow(0 0 6px #ff4500) drop-shadow(0 0 7px #ffd700)
+            drop-shadow(0 0 16px #ffffd7);
+    }
+}
+
+@keyframes chat-dot {
+    0%,
+    60%,
+    100% {
+        transform: translateY(0);
+        opacity: 0.35;
+    }
+
+    30% {
+        transform: translateY(-2px);
+        opacity: 1;
+    }
+}
+
+.animate-chat-dot {
+    animation: chat-dot 1.2s ease-in-out infinite;
+}
+
+.animate-fire-breathe {
+    animation: fire-breathe 2s infinite ease-in-out;
+}
+@utility bg-gradient {
+    background-image: linear-gradient(to right, var(--color-main-start), var(--color-main-end));
+}
+@utility bg-header {
+    background-image: linear-gradient(to right, var(--color-header-start), var(--color-header-end));
+}
+@utility bg-header-reverse {
+    background-image: linear-gradient(to right, var(--color-header-end), var(--color-header-start));
+}
+@layer components {
+    .list-box-item:active,
+    .list-box-item[data-pressed='true'] {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+        transform: none !important;
+    }
+
+    .list-box-item__indicator {
+        margin-left: auto !important;
+        flex-shrink: 0 !important;
+    }
+    .event-list-item {
+        @apply mb-[10px] flex flex-col items-center justify-center gap-4 rounded-lg border border-gray-300 bg-white p-4 shadow-md md:flex-row md:justify-between md:p-6;
+    }
+    /* Brand gradients — written as raw CSS (not @apply) so they're independent
+       of Tailwind's v3->v4 gradient-utility rename (bg-gradient-to-* -> bg-linear-to-*). */
+
+    .main-title {
+        @apply text-primary pb-[45px] pt-[4px] text-[52px] font-bold;
+    }
+
+    /* Seat-map availability styling (venue SVG). Raw CSS to keep the
+       important fill + descendant text fills exact across the v4 upgrade. */
+    g.available,
+    g.available rect:not([id*='text']),
+    g.available path:not([id*='text']),
+    g.available polygon:not([id*='text']),
+    g.available polyline:not([id*='text']),
+    g.available ellipse:not([id*='text']) {
+        fill: var(--color-main-start) !important;
+        transition: all 100ms ease;
+        opacity: 1;
+    }
+
+    g.available text[class^='cls-'],
+    g.available g path[class^='cls-'] {
+        fill: var(--color-on-main);
+    }
+
+    g.available:hover > rect:not([id*='text']),
+    g.available:hover > path:not([id*='text']),
+    g.available:hover > polygon:not([id*='text']),
+    g.available:hover > polyline:not([id*='text']),
+    g.available:hover > ellipse:not([id*='text']) {
+        opacity: 0.8;
+    }
+
+    /* Prevent layout shift on hover:font-bold */
+    .no-layout-shift {
+        position: relative;
+        display: inline-block;
+    }
+
+    .no-layout-shift::before {
+        content: attr(data-text);
+        font-weight: 700;
+        /* bold */
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        user-select: none;
+        pointer-events: none;
+        display: block;
+    }
+
+    @media speech {
+        .no-layout-shift::before {
+            display: none;
+        }
+    }
+}
+
+.date-input-group[data-invalid='true'] {
+    outline: none !important;
+    border-color: transparent !important;
+    border-width: 0 !important;
+}
+
+.date-input-group[data-invalid='true']:not([data-focused='true']):not(:focus-within) {
+    box-shadow: 0 0 0 1px var(--color-danger) !important;
+}
+
+.date-input-group[data-invalid='true']:is([data-focused='true'], :focus-within) {
+    box-shadow: 0 0 0 2px var(--color-danger) !important;
+}
+
+.custom-scrollbar {
+    @apply overflow-auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-default-300) transparent;
+}
+
+.font-heading {
+    font-weight: var(--font-weight-heading);
+}

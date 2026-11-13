@@ -1,0 +1,193 @@
+.wpwl-group-brand {
+    display: none;
+}
+
+/* Spacing for express payment container */
+.wpwl-express-container > div {
+    margin-bottom: 5px;
+}
+
+.wpwl-express-container > *:last-child {
+    margin-bottom: 0;
+}
+
+.wpwl-button:has(.wpwl-brand-PAYPAL) {
+    width: 100%;
+    background-color: #fcbb32;
+    border: none;
+    transition:
+        background-color 0.2s ease,
+        transform 0.15s ease;
+}
+
+.wpwl-button:has(.wpwl-brand-PAYPAL):hover {
+    background-color: #e0a42d;
+}
+
+/* Google Pay button styling */
+.wpwl-form-virtualAccount-GOOGLEPAY .gpay-card-info-container {
+    width: 100% !important;
+    min-height: 50px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    background-color: #000 !important;
+    transition:
+        background-color 0.2s ease,
+        transform 0.15s ease !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+/* Google Pay form container */
+.wpwl-form-virtualAccount-GOOGLEPAY {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Google Pay button group */
+.wpwl-form-virtualAccount-GOOGLEPAY .wpwl-group-button {
+    margin: 0;
+    width: 100%;
+}
+
+/* Apple Pay button styling - targeting the exact classes from HTML */
+.wpwl-container-virtualAccount-APPLEPAY .wpwl-apple-pay-button {
+    width: 100% !important;
+    height: 50px !important;
+    min-height: 50px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    background: #000 !important;
+    transition:
+        background-color 0.2s ease,
+        transform 0.15s ease !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+}
+
+/* Apple Pay form container */
+.wpwl-form-virtualAccount-APPLEPAY {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Apple Pay button group */
+.wpwl-form-virtualAccount-APPLEPAY .wpwl-group-button {
+    margin: 0;
+    width: 100%;
+}
+
+/* Additional targeting for Apple Pay container */
+.wpwl-container-virtualAccount-APPLEPAY {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wpwl-form {
+    max-width: none;
+    margin: auto;
+}
+
+/* Style général du formulaire */
+.wpwl-form-card {
+    background-color: transparent;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    color: #1f2937;
+    /* gray-800 */
+}
+
+/* Labels élégants */
+.wpwl-form-card .wpwl-label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #4b5563;
+    /* gray-700 */
+}
+
+/* Champs */
+.wpwl-form-card .wpwl-control {
+    border: 1px solid #d1d5db;
+    /* gray-300 */
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    background-color: #f9fafb;
+    /* gray-50 */
+    color: #111827;
+    /* gray-900 */
+}
+
+/* Focus input */
+.wpwl-form-card .wpwl-control:focus {
+    border-color: rgb(var(--main-gradient-start));
+    /* indigo-500 */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+    outline: none;
+    background-color: #fff;
+}
+
+/* Bouton */
+.wpwl-form-card .wpwl-button {
+    background: linear-gradient(
+        135deg,
+        rgb(var(--main-gradient-start)),
+        rgb(var(--main-gradient-end))
+    );
+    /* indigo-500 */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+        box-shadow 0.2s ease-in-out,
+        transform 200ms ease;
+    width: 100%;
+}
+
+/* Hover bouton */
+.wpwl-form-card .wpwl-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 2px 8px rgba(79, 70, 229, 0.3);
+}
+
+.wpwl-control-cardNumber::placeholder {
+    color: blue !important;
+}
+
+/* Warning message for wallet payments */
+.nomupay-wallet-warning {
+    margin-top: 5px;
+    padding: 10px 16px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #d97706;
+    /* amber-600 */
+    background-color: #fffbeb;
+    /* amber-50 */
+    border: 1px solid #fcd34d;
+    /* amber-300 */
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.wpwl-button {
+    border-radius: 8px !important;
+    height: 50px !important;
+    max-height: 50px !important;
+    min-height: 0 !important;
+}

@@ -1,0 +1,1 @@
+importScripts("https://cdn.p-n.io/sdk/web/latest/pushly-sw.js" + (self.location || {}).search || '');

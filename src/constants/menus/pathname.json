@@ -1,0 +1,20 @@
+{
+  "/sport-tickets": {
+    "en-GB": "/sport-tickets",
+    "es-ES": "/entradas-deportivas",
+    "en-US": "/sport-tickets",
+    "es-AR": "/tickets-deporte"
+  },
+  "/football": {
+    "en-GB": "/football",
+    "en-US": "/soccer",
+    "es-ES": "/futbol",
+    "es-AR": "/futbol"
+  },
+  "/sport-tickets/football": {
+    "en-GB": "/sport-tickets/football",
+    "es-ES": "/entradas-deportivas/futbol",
+    "en-US": "/sport-tickets/soccer",
+    "es-AR": "/tickets-deporte/futbol"
+  }
+}

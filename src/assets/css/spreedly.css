@@ -1,0 +1,58 @@
+.spreedly-payment-form .field-success {
+    border-color: rgb(204, 204, 204) !important;
+}
+.spreedly-payment-form .field-error {
+    border-color: #e74c3c !important;
+}
+/* Default fallback for iframe when not full-screen */
+#challengeContainer iframe {
+    width: 90%;
+    height: 80%;
+    max-width: 500px;
+    max-height: 500px;
+    z-index: 1000; /* ensure above normal content */
+}
+
+/* Loader overlay shown while 3DS iframe loads */
+/* Loader overlay shown while 3DS iframe loads — sits behind the iframe so iframe will hide it */
+#challengeContainer.challenge-loading::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 100; /* lower than iframe's z-index */
+}
+
+#challengeContainer.challenge-loading::after {
+    content: '';
+    position: absolute;
+    z-index: 101; /* lower than iframe's z-index */
+    width: 64px;
+    height: 64px;
+    border: 6px solid rgba(255,255,255,0.85);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spreedly-spin 1s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#challengeContainer .threeds-iframe {
+    background: white;
+}
+
+@keyframes spreedly-spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Prevent body scroll when 3DS challenge overlay is open */
+body:has(#hiddenChallenge:not(.hidden)) {
+    overflow: hidden;
+}
+
+.spreedly-payment-form input::placeholder {
+  color: #777;
+  font-weight: 300;
+  font-family: Inter, Arial, sans-serif;
+  opacity: 1;
+}

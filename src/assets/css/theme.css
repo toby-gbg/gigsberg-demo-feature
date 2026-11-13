@@ -1,0 +1,331 @@
+/* Brand token sources for html[data-theme] variants. */
+@import './themes/default.css';
+@import './themes/gigsberg.css';
+@import './themes/marca.css';
+
+@theme {
+    /* ===================== Primitive tokens ===================== */
+    --color-primary-50: var(--brand-bg-50);
+    --color-primary-100: var(--brand-bg-100);
+    --color-primary-200: var(--brand-brd-200);
+    --color-primary-300: var(--brand-brd-300);
+    --color-primary-400: var(--brand-int-400);
+    --color-primary-500: var(--brand-int-500);
+    --color-primary-600: var(--brand-int-600);
+    --color-primary-700: var(--brand-em-700);
+    --color-primary-800: var(--brand-em-800);
+    --color-primary-850: var(--brand-dep-850);
+    --color-primary-900: var(--brand-dep-900);
+    --color-primary-950: var(--brand-dep-950);
+
+    /* Neutral tokens */
+    --color-neutral-50: var(--neutral-bg-50);
+    --color-neutral-100-bg: var(--neutral-bg-100);
+    --color-neutral-100-surf: var(--neutral-surf-100);
+    --color-neutral-200: var(--neutral-surf-200);
+    --color-neutral-300: var(--neutral-brd-300);
+    --color-neutral-400: var(--neutral-brd-400);
+    --color-neutral-500: var(--neutral-brd-500);
+    --color-neutral-600: var(--neutral-txt-600);
+    --color-neutral-700: var(--neutral-txt-700);
+    --color-neutral-850: var(--neutral-dep-850);
+    --color-neutral-900: var(--neutral-dep-900);
+    --color-neutral-950: var(--neutral-dep-950);
+
+    /* Success state tokens */
+    --color-success-state-default: var(--success-default);
+    --color-success-state-hover: var(--success-hover);
+    --color-success-state-pressed: var(--success-pressed);
+    --color-success-state-text: var(--success-text);
+
+    /* Error state tokens */
+    --color-error-state-default: var(--error-default);
+    --color-error-state-hover: var(--error-hover);
+    --color-error-state-pressed: var(--error-pressed);
+    --color-error-state-text: var(--error-text);
+
+    /* Warning state tokens */
+    --color-warning-state-default: var(--warning-default);
+    --color-warning-state-hover: var(--warning-hover);
+    --color-warning-state-pressed: var(--warning-pressed);
+    --color-warning-state-text: var(--warning-text);
+
+    /* Info state tokens */
+    --color-info-state-default: var(--info-default);
+    --color-info-state-hover: var(--info-hover);
+    --color-info-state-pressed: var(--info-pressed);
+    --color-info-state-text: var(--info-text);
+
+    /* ===================== Semantic tokens ===================== */
+    --color-primary: var(--text-primary);
+    --color-primary-light: var(--color-primary-50);
+    --color-primary-light-hover: var(--color-primary-100);
+    --color-primary-border: var(--color-primary-200);
+    --color-primary-border-strong: var(--color-primary-300);
+    --color-primary-hover: var(--color-primary-600);
+    --color-primary-active: var(--color-primary-700);
+    --color-primary-dark: var(--color-primary-800);
+    --color-primary-dark-hover: var(--color-primary-850);
+    --color-primary-dark-active: var(--color-primary-900);
+    --color-primary-darkest: var(--color-primary-950);
+
+    --color-bg: var(--color-neutral-50);
+    --color-bg-subtle: var(--color-neutral-100-bg);
+
+    --color-surface: var(--color-neutral-100-surf);
+    --color-surface-muted: var(--color-neutral-200);
+
+    --color-text-primary: var(--color-neutral-900);
+    --color-text-secondary: var(--color-neutral-850);
+    --color-text-tertiary: var(--color-neutral-700);
+    --color-text-hint: var(--color-neutral-600);
+
+    --color-border-subtle: var(--color-neutral-300);
+    --color-border: var(--color-neutral-400);
+    --color-border-strong: var(--color-neutral-500);
+
+    --color-success: var(--color-success-state-default);
+    --color-success-hover: var(--color-success-state-hover);
+    --color-success-soft: var(--color-success-state-pressed);
+    --color-success-border: var(--color-success-state-text);
+
+    --color-warning: var(--color-warning-state-default);
+    --color-warning-hover: var(--color-warning-state-hover);
+    --color-warning-soft: var(--color-warning-state-pressed);
+    --color-warning-border: var(--color-warning-state-text);
+
+    --color-error: var(--color-error-state-default);
+    --color-error-hover: var(--color-error-state-hover);
+    --color-error-soft: var(--color-error-state-pressed);
+    --color-error-border: var(--color-error-state-text);
+
+    --color-info: var(--color-info-state-default);
+    --color-info-hover: var(--color-info-state-hover);
+    --color-info-soft: var(--color-info-state-pressed);
+    --color-info-border: var(--color-info-state-text);
+
+    --color-danger: oklch(0.63 0.25 4.5);
+
+    /* ===================== Font sizes ===================== */
+    /* dynamic (overridable by DataFetcher injected vars) */
+    --text-heading: var(--heading--font-size, 2.25rem);
+    --text-btn: var(--btn--font-size, 1rem);
+
+    /* Display */
+    --text-display-l: 5.375rem;
+    --text-display-l--line-height: 6.25rem;
+    --text-display-l--font-weight: 700;
+    --text-display-m: 4.5rem;
+    --text-display-m--line-height: 5.375rem;
+    --text-display-m--font-weight: 700;
+    --text-display-s: 3.75rem;
+    --text-display-s--line-height: 4.5rem;
+    --text-display-s--font-weight: 700;
+
+    /* Headings */
+    --text-heading-l: 3rem;
+    --text-heading-l--line-height: 3.5rem;
+    --text-heading-l--font-weight: 700;
+    --text-heading-m: 2.5rem;
+    --text-heading-m--line-height: 3rem;
+    --text-heading-m--font-weight: 700;
+    --text-heading-s: 2rem;
+    --text-heading-s--line-height: 2.5rem;
+    --text-heading-s--font-weight: 700;
+
+    /* Titles */
+    --text-title-l: 1.75rem;
+    --text-title-l--line-height: 2.25rem;
+    --text-title-l--font-weight: 600;
+    --text-title-m: 1.5rem;
+    --text-title-m--line-height: 2rem;
+    --text-title-m--font-weight: 600;
+    --text-title-s: 1.25rem;
+    --text-title-s--line-height: 1.75rem;
+    --text-title-s--font-weight: 600;
+
+    /* Body */
+    --text-body-l: 1.125rem;
+    --text-body-l--line-height: 1.75rem;
+    --text-body-l--font-weight: 400;
+    --text-body-m: 1rem;
+    --text-body-m--line-height: 1.5rem;
+    --text-body-m--font-weight: 400;
+    --text-body-s: 0.875rem;
+    --text-body-s--line-height: 1.25rem;
+    --text-body-s--font-weight: 400;
+
+    /* Utilities */
+    --text-caption: 0.75rem;
+    --text-caption--line-height: 1rem;
+    --text-caption--font-weight: 400;
+    --text-micro: 0.625rem;
+    --text-micro--line-height: 0.875rem;
+    --text-micro--font-weight: 400;
+    --text-select: 0.875rem;
+    --text-select--line-height: 1rem;
+    --text-select--font-weight: 400;
+
+    /* =============================== Legacy =============================== */
+
+    /* ===================== Colors ===================== */
+    --color-header-start: var(--header-gradient-start);
+    --color-header-end: var(--header-gradient-end);
+    --color-on-header: var(--text-on-header);
+
+    /* main-gradient & bg-solid are injected as space-separated RGB channels
+       (see DataFetcher hexToRgb). v4 adds opacity via color-mix, so do NOT
+       append `/ <alpha-value>` here — that v3 token leaks as invalid CSS. */
+    --color-main-start: rgb(var(--main-gradient-start));
+    --color-main-end: rgb(var(--main-gradient-end));
+    --color-on-main: var(--text-on-main);
+
+    --color-solid: rgb(var(--bg-solid));
+    --color-on-solid: var(--text-on-solid);
+
+    --color-secondary: var(--text-secondary);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-bg-grey: var(--bg-grey);
+
+    /* ===================== Legacy compatibility scales =====================
+    Keep the numbered `default-*` / `foreground-*` color scales and the
+    `divider` token because the app still uses them in className strings (e.g.
+    bg-default-300, text-foreground-600, border-divider). Restore the v2 light
+    (zinc) values so those utilities render the same as before the upgrade. */
+    --color-default-50: #fafafa;
+    --color-default-100: #f4f4f5;
+    --color-default-200: #e4e4e7;
+    --color-default-300: #d4d4d8;
+    --color-default-400: #a1a1aa;
+    --color-default-500: #71717a;
+    --color-default-600: #52525b;
+    --color-default-700: #3f3f46;
+    --color-default-800: #27272a;
+    --color-default-900: #18181b;
+
+    --color-foreground-50: #fafafa;
+    --color-foreground-100: #f4f4f5;
+    --color-foreground-200: #e4e4e7;
+    --color-foreground-300: #d4d4d8;
+    --color-foreground-400: #a1a1aa;
+    --color-foreground-500: #71717a;
+    --color-foreground-600: #52525b;
+    --color-foreground-700: #3f3f46;
+    --color-foreground-800: #27272a;
+    --color-foreground-900: #18181b;
+
+    --color-divider: rgba(17, 17, 17, 0.15);
+
+    /* ===================== Font weights ===================== */
+    --font-weight-heading: var(--heading--font-weight, 600);
+    --font-weight-btn: var(--btn--font-weight, 500);
+
+    /* ===================== Radius (custom additions) ===================== */
+    --radius-xxs: 0.125rem;
+
+    /* ===================== Shadow ===================== */
+    --shadow-field:
+        0 2px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
+        0 0 1px 0 rgba(0, 0, 0, 0.06);
+    --shadow-xs: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* ===================== Background image utilities ===================== */
+/* v4 has no `--background-image-*` theme namespace; use @utility for bg-* images */
+@utility bg-festival-badge {
+    background-image: url('/festival_border.svg');
+}
+@utility bg-dash-line {
+    background-image: repeating-linear-gradient(to right, #d4d4d8 0 6px, transparent 6px 12px);
+}
+
+:root {
+    --bg-grey: #f6f6f6;
+
+    /* Map primary interactive components to accent tokens. */
+    --accent: var(--text-primary);
+    --accent-hover: var(--text-primary);
+    --accent-foreground: var(--text-on-main);
+    --accent-soft: color-mix(in oklab, var(--text-primary) 15%, transparent);
+    --accent-soft-foreground: var(--text-primary);
+
+    /* shadcn/ui tokens override */
+    --background: var(--color-neutral-50);
+    --foreground: var(--color-neutral-900);
+
+    --card: #fff;
+    --card-foreground: var(--color-neutral-900);
+
+    --popover: #fff;
+    --popover-foreground: var(--color-neutral-900);
+
+    --primary: var(--text-primary);
+    --primary-foreground: var(--text-on-main);
+
+    --secondary: var(--text-secondary);
+    --secondary-foreground: var(--color-neutral-900);
+
+    --muted: #71717a;
+    --muted-foreground: var(--color-neutral-600);
+
+    --destructive: var(--color-error-state-default);
+    --border: var(--color-neutral-400);
+    --input: var(--color-neutral-400);
+    --ring: var(--color-primary-400);
+
+    --radius: 0.5rem;
+
+    --chart-1: var(--color-primary-600);
+    --chart-2: var(--color-info-state-default);
+    --chart-3: var(--color-success-state-default);
+    --chart-4: var(--color-warning-state-default);
+    --chart-5: var(--color-error-state-default);
+
+    --sidebar: var(--color-neutral-50);
+    --sidebar-foreground: var(--color-neutral-900);
+    --sidebar-primary: var(--text-primary);
+    --sidebar-primary-foreground: var(--text-on-main);
+    --sidebar-accent: var(--color-neutral-100-bg);
+    --sidebar-accent-foreground: var(--color-neutral-900);
+    --sidebar-border: var(--color-neutral-300);
+    --sidebar-ring: var(--color-primary-400);
+}
+
+@theme inline {
+    --color-sidebar-ring: var(--sidebar-ring);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar: var(--sidebar);
+
+    --color-chart-5: var(--chart-5);
+    --color-chart-4: var(--chart-4);
+    --color-chart-3: var(--chart-3);
+    --color-chart-2: var(--chart-2);
+    --color-chart-1: var(--chart-1);
+
+    --color-ring: var(--ring);
+    --color-input: var(--input);
+    --color-destructive: var(--destructive);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-muted: var(--muted);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-popover: var(--popover);
+    --color-card-foreground: var(--card-foreground);
+    --color-card: var(--card);
+
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.4);
+    --radius-2xl: calc(var(--radius) * 1.8);
+    --radius-3xl: calc(var(--radius) * 2.2);
+    --radius-4xl: calc(var(--radius) * 2.6);
+}
